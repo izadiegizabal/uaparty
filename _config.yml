@@ -29,6 +29,9 @@ collections:
   cocktails:
     output: true
     permalink: /cocteles/:title/
+  bares:
+    output: true
+    permalink: /bares/:title/
 markdown: redcarpet
 highlighter: pygments
 gems: [jekyll-feed, jekyll-paginate]
