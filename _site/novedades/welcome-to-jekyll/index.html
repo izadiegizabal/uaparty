@@ -185,6 +185,21 @@
         $('i.fa.fa-broken-heart').html('<span style="padding:5px"><span class="fa-broken-heart fa-stack"><i class="fa fa-heart fa-stack-2x"></i><i class="fa fa-flash fa-stack-1x" style="'+faFlash+'"></i></span></span>');
         $(".button-collapse").sideNav();
         $('nav a').addClass('waves-effect');
+
+        //uaparty additions
+        $(".carousel.carousel-slider").carousel({full_width: true});
+          $('.carousel').carousel({
+            padding: 200
+          });
+          autoplay()
+          function autoplay() {
+            $('.carousel').carousel('next');
+            setTimeout(autoplay, 4500);
+          }
+          $(document).ready(function(){
+            $('.carousel').carousel();
+            $('.materialboxed').materialbox();
+          });
     });
     </script>
 </body>
