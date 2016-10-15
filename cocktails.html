@@ -3,9 +3,9 @@ layout: page_cocktails
 title: "Cócteles"
 permalink: /cocteles/
 ---
-<div class="row">
-  <div class="col s12 cards-container">
+<div class="section">
   {% for cocktail in site.cocktails %}
+  <div class="col s12 m6 l4">
     <div class="card">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="{{ cocktail.imageURL }}">
@@ -19,8 +19,8 @@ permalink: /cocteles/
         <p>{{ cocktail.excerpt | strip_html }}</p>
       </div>
     </div>
+  </div>
   {% endfor %}
-</div>
 </div>
 
 <!--<div class="row">
