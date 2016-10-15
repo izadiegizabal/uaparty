@@ -23,24 +23,7 @@ hr {
   max-width: 1280px;
   width: 80%;
 }
-@media #{$medium-and-up} {
-  .container {
-    width: 75%;
-  }
-  .containerespesial {
-    width: 80%;
-    margin: auto;
-  }
-}
-@media #{$large-and-up} {
-  .container {
-    width: 60%;
-  }
-  .containerespesial {
-    width: 70%;
-    margin: auto;
-  }
-}
+
 .no-margin {
     margin: 0;
     &.__top {
@@ -175,4 +158,60 @@ footer.page-footer {
     width: 100%;
     height: 100%;
 }
-//////////////////////////////////////
+
+//////////////////////////////////////////
+// Responsive design ////////////////////
+/////////////////////////////////////////
+
+@mixin column-count($ct) {
+  -webkit-column-count: $ct;
+  -moz-column-count: $ct;
+  column-count: $ct;
+}
+
+.cards-container {
+  column-break-inside: avoid;
+  .card {
+    display: inline-block;
+    overflow: visible;
+  }
+}
+
+@media #{$small-and-down} {
+  .container {
+    width: 75%;
+  }
+  .cards-container {
+    @include column-count(1);
+  }
+}
+@media #{$medium-and-up} {
+  .container {
+    width: 75%;
+  }
+  .containerespesial {
+    width: 80%;
+    margin: auto;
+  }
+  .cards-container {
+    @include column-count(2);
+  }
+}
+@media #{$large-and-up} {
+  .container {
+    width: 60%;
+  }
+  .containerespesial {
+    width: 70%;
+    margin: auto;
+  }
+  .cards-container {
+    @include column-count(3);
+  }
+}
+
+
+/// Styles for demo
+.text-center {
+  text-align: center;
+}
