@@ -3,6 +3,7 @@ layout: post
 title:  "Testing GitHub Flavored Markdown"
 date:   2015-10-10 19:37:30
 categories: jekyll
+imageURL: "https://aws.producthunt.com/collection/96408/baracktocat.jpg"
 ---
 Jekyll is simple but powerfull, and can hosted easely on github.
 This is cheat codes for creating beautiful article with GFM (Github Flavored Markdown).
@@ -70,7 +71,7 @@ Example :
 
 ```
 function hello(){
-	return "Hello World!";	
+	return "Hello World!";
 }
 ```
 
@@ -79,7 +80,7 @@ Return :
 {% highlight text %}
 ```
 function hello(){
-	return "Hello World!";	
+	return "Hello World!";
 }
 ```
 {% endhighlight %}
@@ -104,7 +105,7 @@ Example :
 
 {% highlight javascript %}
 function hello(){
-	return "Hello World!";	
+	return "Hello World!";
 }
 {% endhighlight %}
 
@@ -114,7 +115,7 @@ Return :
 {%raw%}
 {% highlight javascript %}
 function hello(){
-	return "Hello World!";	
+	return "Hello World!";
 }
 {% endhighlight %}
 {%endraw%}
