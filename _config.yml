@@ -25,6 +25,10 @@ sass:
     sass_dir: _sass
     style: compressed
 permalink: "/novedades/:title/"
+collections:
+  cocktails:
+    output: true
+    permalink: /cocteles/:title/
 markdown: redcarpet
 highlighter: pygments
 gems: [jekyll-feed, jekyll-paginate]
