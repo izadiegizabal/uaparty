@@ -1,25 +1,49 @@
 <div class="navbar-fixed">
 <nav class="white blue-text z-depth-0">
+
     <ul id="slide-out" class="side-nav">
-        <li><a href="{{ site.baseurl }}/" class="blue-text">Home</a></li>
+        <img src="/assets/img/logo_ua_party.svg" style="height: 150px; padding: 30px 0 35px 75px; margin-bottom: -30px;" alt="logo uaparty oficial">
+        <li style="padding-left: 25px;"><a href="{{ site.baseurl }}/" class="blue-text margena-kendu">Novedades</a></li>
+        <li style="padding-left: 25px;"><a href="/calendario/" class="blue-text margena-kendu">Calendario</a></li>
         {% for page in site.pages %}
             {% if page.title %}
-                <li><a href="{{ page.url | prepend: site.baseurl }}" class="blue-text">{{ page.title }}</a></li>
+                <li style="padding-left: 25px;"><a href="{{ page.url | prepend: site.baseurl }}" class="blue-text margena-kendu">{{ page.title }}</a></li>
             {% endif %}
         {% endfor %}
-        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="blue-text">Feed</a></li>
     </ul>
     <div class="container container-large">
-    <a class="brand-logo" href="{{ site.baseurl }}/" class="blue-text"><span class="light blue-text">{{ site.logo }}</span></a>
+    <a class="brand-logo" href="{{ site.baseurl }}/" class="blue-text" style="padding: 0 20px;"><span class="light blue-text">{{ site.logo }}</span></a>
     <ul class="right hide-on-med-and-down">
-        {% for page in site.pages %}
-            {% if page.title %}
-                <li><a href="{{ page.url | prepend: site.baseurl }}" class="blue-text">{{ page.title }}</a></li>
-            {% endif %}
-        {% endfor %}
-        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="blue-text">Feed</a></li>
+      <li><a href="{{ site.baseurl }}" class="blue-text">Novedades</a></li>
+      <li><a href="/calendario/" class="blue-text">Calendario</a></li>
+      <li><a href="/sobre_nosotros/" class="blue-text">Sobre Nosotros</a></li>
+
+      <!-- To have space between the dropdown and the rest of the sections -->
+      <p class="noselect" style="
+      float: left;
+      -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none;   /* Chrome/Safari/Opera */
+      -moz-user-select: none;      /* Firefox */
+      -ms-user-select: none;       /* Internet Explorer/Edge */
+      user-select: none;           /* Non-prefixed version, currently
+                                      not supported by any browser */
+      ">&nbsp; &nbsp; &nbsp;</p>
+
+
+      <!-- Dropdown Trigger -->
+      <a class='dropdown-button btn white-text blue' href='#' style="font-size: 1rem; margin-left: 0; margin-right: -50px;" data-activates='dropdown1'>¡Diviértete!</a>
+
+      <!-- Dropdown Structure -->
+      <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="/bares/" style="font-size: 1rem;" class="blue-text">Bares</a></li>
+        <li><a href="/cocteles/" style="font-size: 1rem;" class="blue-text">Cócteles</a></li>
+        <li><a href="/juegos/" style="font-size: 1rem;" class="blue-text">Juegos</a></li>
+      </ul>
+
     </ul>
-    <a href="#" data-activates="slide-out" class="button-collapse right blue-text"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="slide-out" class="button-collapse left blue-text menu-botoi" style="padding: 0 15px;margin-left: -35px;">
+        <svg style="margin-top: 7px;" height="40px" fill="#2196F3" id="botoia" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+      </a>
     </div>
 </nav>
 </div>
