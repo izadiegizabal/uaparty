@@ -13,6 +13,11 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+hr {
+  opacity: 0;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1280px;
@@ -22,10 +27,18 @@ main {
   .container {
     width: 75%;
   }
+  .containerespesial {
+    width: 80%;
+    margin: auto;
+  }
 }
 @media #{$large-and-up} {
   .container {
     width: 60%;
+  }
+  .containerespesial {
+    width: 70%;
+    margin: auto;
   }
 }
 .no-margin {
