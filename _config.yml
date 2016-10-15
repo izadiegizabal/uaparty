@@ -32,6 +32,9 @@ collections:
   bares:
     output: true
     permalink: /bares/:title/
+  juegos:
+    output: true
+    permalink: /juegos/:title/
 markdown: redcarpet
 highlighter: pygments
 gems: [jekyll-feed, jekyll-paginate]
