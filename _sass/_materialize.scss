@@ -1,3 +1,47 @@
+@charset "UTF-8";
+
+// Mixins
+// @import "materialize-component/prefixer";
+@import "materialize-component/mixins";
+@import "materialize-component/color";
+
+// Variables;
+@import "materialize-component/variables";
+
+// Reset
+@import "materialize-component/normalize";
+
+// components
+@import "materialize-component/global";
+@import "materialize-component/icons-material-design";
+@import "materialize-component/grid";
+@import "materialize-component/navbar";
+@import "materialize-component/roboto";
+@import "materialize-component/typography";
+@import "materialize-component/cards";
+@import "materialize-component/toast";
+@import "materialize-component/tabs";
+@import "materialize-component/tooltip";
+@import "materialize-component/buttons";
+@import "materialize-component/dropdown";
+@import "materialize-component/waves";
+@import "materialize-component/modal";
+@import "materialize-component/collapsible";
+@import "materialize-component/chips";
+@import "materialize-component/materialbox";
+@import "materialize-component/forms/forms";
+@import "materialize-component/table_of_contents";
+@import "materialize-component/sideNav";
+@import "materialize-component/preloader";
+@import "materialize-component/slider";
+@import "materialize-component/carousel";
+@import "materialize-component/date_picker/default";
+@import "materialize-component/date_picker/default.date";
+@import "materialize-component/date_picker/default.time";
+
+
+
+/*
 @import "materialize-component/prefixer";
 @import "materialize-component/mixins";
 @import "materialize-component/color";
@@ -25,6 +69,8 @@
 @import "materialize-component/sideNav";
 @import "materialize-component/preloader";
 @import "materialize-component/slider";
+@import "materialize-component/carousel";
 @import "materialize-component/date_picker/default";
 @import "materialize-component/date_picker/default.date";
 @import "materialize-component/date_picker/default.time";
+*/
