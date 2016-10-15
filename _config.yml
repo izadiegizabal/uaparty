@@ -1,0 +1,30 @@
+# Site settings
+title: UA Party
+description: UA Party nace con la intención de conectar a toda la comunidad de la Universidad de Alicante en el ámbito de salir de fiesta y ofrecerte toda la información de cada una de las fiestas que se organizan.
+url: "http://uaparty.ml"
+baseurl: ""
+logo: UA<b>Party</b>
+paginate: 8
+paginate_path: "/page:num/"
+owner:
+    email: uapartyoficial@gmail.com
+    facebook:
+        show: true
+        name: "uapartyoficial"
+        url: "https://fb.me/uapartyoficial"
+    github:
+        show: false
+        username: "riefachan"
+    twitter:
+        show: true
+        username: "uapartyoficial"
+    disqus:
+        show: true
+        username: "uaparty"
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: "/novedades/:title/"
+markdown: redcarpet
+highlighter: pygments
+gems: [jekyll-feed, jekyll-paginate]
