@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jekyll-materialize</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 Oct 2016 14:35:03 +0200</pubDate>
-    <lastBuildDate>Sat, 15 Oct 2016 14:35:03 +0200</lastBuildDate>
+    <title>UA Party</title>
+    <description>UA Party nace con la intención de conectar a toda la comunidad de la Universidad de Alicante en el ámbito de salir de fiesta y ofrecerte toda la información de cada una de las fiestas que se organizan.</description>
+    <link>http://uaparty.ml/</link>
+    <atom:link href="http://uaparty.ml/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 15 Oct 2016 14:42:49 +0200</pubDate>
+    <lastBuildDate>Sat, 15 Oct 2016 14:42:49 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -99,8 +98,8 @@ function hello(){
 {% endhighlight %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
         <pubDate>Sat, 10 Oct 2015 21:37:30 +0200</pubDate>
-        <link>http://yourdomain.com/article/testing-gitHub-flavored-markdown</link>
-        <guid isPermaLink="true">http://yourdomain.com/article/testing-gitHub-flavored-markdown</guid>
+        <link>http://uaparty.ml/novedades/testing-gitHub-flavored-markdown/</link>
+        <guid isPermaLink="true">http://uaparty.ml/novedades/testing-gitHub-flavored-markdown/</guid>
         
         
         <category>jekyll</category>
@@ -120,8 +119,8 @@ function hello(){
 &lt;p&gt;Multoque hoc melius nos veriusque quam Stoici. Illi enim inter se dissentiunt. Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Id et fieri posse et saepe esse factum et ad voluptates percipiendas maxime pertinere. Ut proverbia non nulla veriora sint quam vestra dogmata. Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Oct 2015 02:49:37 +0200</pubDate>
-        <link>http://yourdomain.com/article/pain-itself</link>
-        <guid isPermaLink="true">http://yourdomain.com/article/pain-itself</guid>
+        <link>http://uaparty.ml/novedades/pain-itself/</link>
+        <guid isPermaLink="true">http://uaparty.ml/novedades/pain-itself/</guid>
         
         
         <category>jekyll</category>
@@ -145,8 +144,8 @@ function hello(){
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 09 Oct 2015 02:49:37 +0200</pubDate>
-        <link>http://yourdomain.com/article/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://yourdomain.com/article/welcome-to-jekyll</guid>
+        <link>http://uaparty.ml/novedades/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://uaparty.ml/novedades/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
