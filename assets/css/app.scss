@@ -172,8 +172,12 @@ footer.page-footer {
 .cards-container {
   column-break-inside: avoid;
   .card {
+    transform: translateZ();
     display: inline-block;
     overflow: visible;
+    i {
+      transform: translateZ(0);
+    }
   }
 }
 

@@ -1,0 +1,56 @@
+---
+layout: page_cocktails
+title: Juegos
+permalink: /juegos/
+---
+<div class="row">
+  <div class="col s12 cards-container">
+    {% for cocktail in site.juegos %}
+    <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="{{ cocktail.imageURL }}" alt="{{ cocktail.title }}">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">{{ cocktail.title }}<i class="material-icons right">more_vert</i></span>
+          <p><a class="blue-text" href="{{ cocktail.url | prepend: site.baseurl }}">Más Info.</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">{{ cocktail.title }}<i class="material-icons right">close</i></span>
+          <p>{{ cocktail.excerpt | strip_html }}</p>
+        </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="section">
+
+    {% if paginator.total_pages > 1 %}
+        <ul class="pagination center-align">
+
+            {% if paginator.previous_page %}
+                <li class="waves-effect blue lighten-2"><a class="white-text" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Previo</a></li>
+            {% else %}
+                <li class="waves-effect disabled blue lighten-2"><a class="white-text" href="#">&laquo; Previo</a></li>
+            {% endif %}
+
+            {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                    <li class="waves-effect active blue"><a href="#">{{ page }}</a></li>
+                {% elsif page == 1 %}
+                    <li class="waves-effect blue lighten-2"><a class="white-text" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+                {% else %}
+                    <li class="waves-effect blue lighten-2"><a class="white-text" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                {% endif %}
+            {% endfor %}
+
+            {% if paginator.next_page %}
+                <li class="waves-effect blue lighten-2"><a class="white-text" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Siguiente &raquo;</a></li>
+            {% else %}
+                <li class="waves-effect disabled blue lighten-2"><a class="white-text" href="#">Siguiente &raquo;</a></li>
+            {% endif %}
+
+        </ul>
+    {% endif %}
+
+</div>
