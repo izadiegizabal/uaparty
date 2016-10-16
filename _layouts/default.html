@@ -1,5 +1,11 @@
+<?php
+
+ob_start("ob_gzhandler");
+
+?>
+
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 {% include head.html %}
 <body class="scrollspy">
     <header>
@@ -42,3 +48,10 @@
     </script>
 </body>
 </html>
+
+
+<?php
+
+ob_flush();
+
+?>

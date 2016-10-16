@@ -1,3 +1,9 @@
+<?php
+
+ob_start("ob_gzhandler");
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -236,3 +242,10 @@ La sala también ofrece la posibilidad de reservarla para celebrar cumpleaños, 
     </script>
 </body>
 </html>
+
+
+<?php
+
+ob_flush();
+
+?>

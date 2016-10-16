@@ -1,3 +1,9 @@
+<?php
+
+ob_start("ob_gzhandler");
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -168,3 +174,10 @@
     </script>
 </body>
 </html>
+
+
+<?php
+
+ob_flush();
+
+?>

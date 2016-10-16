@@ -1,3 +1,9 @@
+<?php
+
+ob_start("ob_gzhandler");
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -539,3 +545,10 @@ Conócenos: http://www.marearock.com/
     </script>
 </body>
 </html>
+
+
+<?php
+
+ob_flush();
+
+?>
