@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: cocktail
 title:  "Cosmopolitan"
@@ -27,6 +28,8 @@ Al contrario que muchos cócteles, que nacieron de modas pasajeras, el Cosmopoli
 
 - Exprimir la cáscara de naranja para sacar el zumo y añadirlo a la bebida.
 =======
+=======
+>>>>>>> master
 ---
 layout: cocktail
 title:  "Cosmopolitan"
@@ -54,4 +57,3 @@ Al contrario que muchos cócteles, que nacieron de modas pasajeras, el Cosmopoli
 - Mezclar los ingredientes en un vaso de cóctel frío o en un vaso con hielo.
 
 - Exprimir la cáscara de naranja para sacar el zumo y añadirlo a la bebida.
->>>>>>> master:_cocktails/2016-09-26-cosmopolitan.markdown
