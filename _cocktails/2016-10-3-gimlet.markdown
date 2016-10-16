@@ -1,0 +1,31 @@
+---
+layout: cocktail
+title:  "Gimlet"
+categories: [Cocktails, simple, ginebra]
+imageURL: "http://i.imgur.com/zjaFtPm.jpg"
+author: "Antonio Carmona"
+---
+
+¿Quién dice que la medicina no puede sabeer increíble? Este cóctel fue creado para los navegantes como una manera de prevenir el escorbuto. No tardó mucho en darse cuenta de que esta bebida preventiva también era deliciosa. Mientras que el escorbuto puede ser del pasado, parece que esta bebida está aquí para quedarse. No se puede pedir mucho más simple o más refrescante que el clásico Gimlet.
+
+**************************************************
+
+#### INGREDIENTES EN EL COCTEL DE GIMLET
+
+- 2,5 onzas de `ginebra`.
+- 0,5 onzas de jugo de lima.
+- 0,5 onzas de jarabe simple.
+- Adornar: 1 rueda de cal.
+- Vidrio: Coctel o pasado de moda.
+
+**************************************************
+
+#### COMO HACER EL COCTEL GIMLET
+
+- Añadir todos los ingredientes a una coctelera y se llenan de hielo.
+
+- Agitar y colar en un vaso de cóctel helado o un vaso bajo con hielo fresco.
+
+- Decorar con una rueda de cal.
+
+(Se puede sustituir 1 onza lima cordial, tales como jugo de limón de Rose, tanto para el jugo de limón y el jarabe simple).

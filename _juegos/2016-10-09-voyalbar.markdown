@@ -1,0 +1,41 @@
+---
+layout: cocktail
+title:  "Voy al bar"
+category: [beber, juego, alcohol, chupitos, memoria, encadenados]
+imageURL: "http://i.imgur.com/D5HUFZe.jpg"
+author: "Javi Cabanes Garcia"
+---
+
+Un juego muy divertido para jugar entre amigos y conocidos en el que solo la memoria te podrá salvar.
+
+*******************************************************************
+
+#### ORÍGENES
+El juego no tiene un origen concreto, es más bien un origen popular.
+
+*******************************************************************
+
+#### MATERIALES NECESARIOS
+
+- Chupitos
+- Memoria
+
+*******************************************************************
+
+#### DESCRIPCIÓN
+
+¿Alguna vez jugaron al juego “Me voy de picnic”? Esto es igual, solo que con tragos. La primera persona comienza diciendo “Voy al bar y necesito pedir un mojito” (o cualquier otra bebida alcohólica). Después de eso, el jugador que le sigue repite la bebida que el jugador anterior mencionó… pero agrega otra bebida a la lista.
+Este es un ejemplo de lo que deberían decir después de algunas rondas: “Voy al bar y necesito pedir un mojito, un chupito de tequila, un gin tonic, y un hot toddy”. Se sigue hasta que alguien se equivoque, quien se equivoque primero tiene que tomar un shot y empezará el siguiente una nueva ronda.
+
+*******************************************************************
+
+#### REGLAS
+
+- Siempre se ha de empezar de la misma forma
+- Antes de añadir una nueva bebida se ha de nombrar la frase anterior en el mismo orden
+- No se puede repetir bebida dentro de la misma ronda
+- Si la persona tarda más de 60 segundos en decir la nueva bebida ha de beber pero si sigue la ronda sin volver a empezar.
+
+*******************************************************************
+
+Un juego muy entretenido para cualquier lugar y situación
