@@ -160,6 +160,44 @@ footer.page-footer {
   padding: 0 2%;
 }
 
+
+/*Bidaltzekoan kolorek*/
+
+/* label color */
+  .input-field label {
+    color: #82b1ff;
+  }
+  /* label focus color */
+  .input-field input[type]:focus + label {
+    color: #448aff;
+  }
+  /* label underline focus color */
+  .input-field input[type]:focus {
+    border-bottom: 1px solid #448aff;
+    box-shadow: 0 1px 0 0 #448aff;
+  }
+
+  /* textarea focus color */
+  .input-field textarea[name]:focus + label {
+    color: #448aff;
+  }
+  /* textarea underline focus color */
+  .input-field textarea[name]:focus {
+    border-bottom: 1px solid #448aff;
+    box-shadow: 0 1px 0 0 #448aff;
+  }
+
+  /* icon prefix color*/
+  .input-field .prefix {
+    color: #82b1ff;
+  }
+
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #448aff;
+  }
+
+
 /* Responsive iFrame for the calendar */
 .responsive-iframe-container {
     position: relative;
