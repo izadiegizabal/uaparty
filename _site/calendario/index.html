@@ -20,7 +20,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body class="scrollspy">
     <header>
         <div class="navbar-fixed">
 <nav class="white blue-text z-depth-0">
@@ -101,10 +101,10 @@
         <div class="row no-margin">
             <div class="col s12">
                 <h2 class="blue-text center-align thin">Calendario</h2>
-                <div class="divider"></div>
+                <div class="divider marra-cal"></div>
             </div>
         </div>
-        <div class="responsive-iframe-container">
+        <div class="responsive-iframe-container cal-margin">
           <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=pm5fqovq6slfvqc84j0vh5f040%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Europe%2FMadrid"
           style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
@@ -132,7 +132,7 @@
 </div>
 <div class="footer-copyright">
   <div class="container center-align">
-    NULLPOINTER - 2016
+    © NULLPOINTER - 2016
   </div>
 </div>
 
@@ -160,6 +160,7 @@
             setTimeout(autoplay, 4500);
           }
           $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
             $('.carousel').carousel();
             $('.materialboxed').materialbox();
           });
