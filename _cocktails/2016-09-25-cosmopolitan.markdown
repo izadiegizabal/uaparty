@@ -8,6 +8,7 @@ author: "Manuel Miralles"
 
 Al contrario que muchos cócteles, que nacieron de modas pasajeras, el Cosmopolitan ha tenido un rápido ascenso al panteón de los cócteles clásicos. Varios bármanes experimentaron con la receta, pero ninguno ha reclamado la creación del cóctel.
 
+
 **************************************************
 
 #### INGREDIENTES EN EL COSMOPOLITAN COCKTAIL
