@@ -1,3 +1,9 @@
+<?php
+
+ob_start("ob_gzhandler");
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -256,3 +262,10 @@ Por ejemplo: si el papel decía “mosquito” y sacas un dos, puedes contar una
     </script>
 </body>
 </html>
+
+
+<?php
+
+ob_flush();
+
+?>
