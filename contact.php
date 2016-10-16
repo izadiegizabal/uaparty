@@ -189,7 +189,7 @@ if(isset($_POST['email'])) {
                         <div class="divider"></div>
                         <br/>
                         <article class="grey-text text-darken-2 post-content">
-                        <p>Muchísimas gracias por la colaboración! Estamos revisando el post y nos pondremos en contacto contigo muy pronto. También nos gustaría recordad que has ganado una participación para el sorteo mensual! Recuerda seguirnos en nuestras redes sociales (@uapartyoficial) para ver si eres el/la afortunado/a y estas al tanto de todas las novedades.</p>
+                        <p>Muchísimas gracias por la colaboración! Estamos revisando el post y nos pondremos en contacto muy pronto. También nos gustaría informar que has ganado una participación para el sorteo mensual! Recuerda seguirnos en nuestras redes sociales (@uapartyoficial) para ver si eres el/la afortunado/a y estar al tanto de todas las novedades.</p>
                         </article>
                     </div>
                 </div>
