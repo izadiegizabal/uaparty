@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<div class="card z-depth-0 no-margin">
+<div class="container">
+<div class="section">
+    <div class="row">
+        <div class="col s12">
+            <div class="card-content">
+                <div class="card-title center-align"><h2 class="thin blue-text">{{ page.title }}</h2></div>
+                <h5 class="center-align grey-text text-darken-1 thin">{{ page.author}}</h5>
+                <br/>
+                <div class="divider"></div>
+                <article class="post-categories center-align">
+                    <div class="chip teal white-text">Categorías</div>
+                    {% for cat in page.categories %}<div class="chip">{{ cat }}</div> {% endfor %}
+                </article>
+                <article class="imagen-destacada">
+                  <img class="responsive-img imagen-destacada materialboxed" src={{ page.imageURL }} alt="{{ page.title }}">
+                </article>
+                <article class="grey-text text-darken-2 post-content">
+                    {{ content }}
+                </article>
+                <article class="grey-text text-darken-2">
+                    {% for cat in page.categories %}
+                        {% if site.categories[cat].size > 1 %}
+                            <aside class="related">
+                                <ul class="collection with-header">
+                                    <li class="collection-header"><h5 class="light">Posts relacionados en la categoría <span class="green-text">{{ cat }}</span>.</h5></li>
+                            {% for cocktail in site.categories[cat] limit:5 %}
+                                {% if cocktail.title != cocktail.title %}
+                                        <a href="{{ cocktail.url }}" class="collection-item avatar">
+                                            <i class="material-icons circle green">loyalty</i>
+                                            <span class="title light">{{ cocktail.date | date: "%B %-d, %Y" }}</span>
+                                            <p class="light">{{ cocktail.title }}</p>
+                                        </a>
+                                {% endif %}
+                            {% endfor %}
+                                </ul>
+                            </aside>
+                        {% endif %}
+                    {% endfor %}
+                </article>
+                <article class="post-comment">
+                    {% include comments.html %}
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>

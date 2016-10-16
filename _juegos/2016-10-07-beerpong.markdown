@@ -1,0 +1,81 @@
+---
+layout: cocktail
+title:  "Beerpong"
+category: [beber, juego, alcohol, pelota, cerveza,la antigua]
+imageURL: "http://i.imgur.com/rycK3bO.jpg"
+author: "Juan Gutierrez Pomte"
+---
+
+Beer Pong (Beirut) es el juego de bebida por excelencia entre los jóvenes universitarios de todo el mundo.
+
+*******************************************************************
+
+#### ORÍGENES
+El juego se originó en la década de 1980 en Beirut, Líbano.
+
+*******************************************************************
+
+#### MATERIALES NECESARIOS
+
+- Mesa plana y suficientemente larga. La reglamentaria es una mesa 1,48 * 2,75
+- Pelotas de ping pong (mínimo 4)
+- 14 o 22 vasos de plástico(dependiendo de la formación)
+- Bebidas alcohólicas para introducir en los vasos(ej. Cerveza, Sangría, Vodka…)
+
+*******************************************************************
+
+Puedes encontrar tu kit beerpong económico [aquí.](https://www.amazon.com/gp/product/B00544YL6Q/ref=pd_sbs_200_t_2?ie=UTF8&psc=1&refRID=DCRRY5GYXQJNNTKY5GZ8)
+
+*******************************************************************
+
+{% include imagen.html url="http://i.imgur.com/a1bIgTx.jpg" description="Esquema Beerpong" class="col s12 materialboxed" %}
+
+*******************************************************************
+
+#### DESCRIPCIÓN
+
+Se trata de un juego para cuatro personas, equipos de dos, donde una bola de ping pong es impulsado a través de una mesa con el objetivo de entrar en uno de los vasos de su rival. Cuando una pelota está hundido en una taza de los jugadores del equipo marcado a tener que beber su contenido. Una vez que todos los vasos de la otra parte están vacíos que el equipo ha ganado.
+
+*******************************************************************
+
+La primera tirada decide quien va a empezar a jugar. Se realiza mirando a los ojos del contrincante y ambos tiran a la vez. Esto se repite hasta que alguien consigue meter su pelota en uno de los vasos del contrincante.
+
+*******************************************************************
+
+Entonces, se empieza a jugar. Primero tirarán los dos del equipo 1 y después los dos del otro equipo reiteradamente.  Hasta que se acaben los vasos y el que deje sin vasos al oponente se declara vencedor.
+
+*******************************************************************
+
+#### REGLAS
+
+- No puedes tocar los vasos
+- Al lanzar, el codo no puede sobrepasar la línea imaginaria del final de la mesa.
+- Tiene que ser un tiro directo, si rebota, puedes apartar la pelota con las manos
+- Si la pelota se queda dando vueltas puedes sacarla con los dedos sin tocar el vaso y antes de que toque el líquido.
+- Si el vaso vuelca por tener poco líquido, cuenta como eliminado y tienen que beberse otro vaso.
+- Antes de lanzar la pelota, se tiene que enjuagar la pelota en un vaso con agua.
+- Siempre se sigue el mismo orden para tirar y para beber
+
+*******************************************************************
+
+#### TÉCNICAS DE LANZAMIENTO
+{% include imagen.html url="http://i.imgur.com/sGIjN1P.jpg" description="Técnicas de lanzamiento" class="col s12 materialboxed" %}
+
+*******************************************************************
+
+#### COLOCACIÓN DE LOS VASOS
+{% include imagen.html url="http://i.imgur.com/9z3lfd4.jpg" description="colocacion vasos" class="col s12 materialboxed" %}
+
+*******************************************************************
+
+#### LIGAS
+
+Todos los miércoles en [La Antigua](uaparty.ml/bares/La_Antigua) puedes participar en un torneo por 3 euros(incluye barra libre de cerveza y sangría de 22:00 a 00:00) inscribiéndote antes de las 00:00 con tu pareja.
+
+*******************************************************************
+
+Hay muchos premios y sorpresas.
+
+*******************************************************************
+
+¿Te lo vas a perder?

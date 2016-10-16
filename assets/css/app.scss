@@ -13,21 +13,17 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+hr {
+  opacity: 0;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1280px;
   width: 80%;
 }
-@media #{$medium-and-up} {
-  .container {
-    width: 75%;
-  }
-}
-@media #{$large-and-up} {
-  .container {
-    width: 60%;
-  }
-}
+
 .no-margin {
     margin: 0;
     &.__top {
@@ -162,4 +158,88 @@ footer.page-footer {
     width: 100%;
     height: 100%;
 }
-//////////////////////////////////////
+
+//////////////////////////////////////////
+// Responsive design ////////////////////
+/////////////////////////////////////////
+
+// Media Query Ranges
+$small-screen-up: 601px !default;
+$medium-screen-up: 993px !default;
+$large-screen-up: 1201px !default;
+$small-screen: 600px !default;
+$medium-screen: 992px !default;
+$large-screen: 1200px !default;
+
+$medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
+$large-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
+$small-and-down: "only screen and (max-width : #{$small-screen})" !default;
+$medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
+$medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;
+
+
+@mixin column-count($ct) {
+  -webkit-column-count: $ct;
+  -moz-column-count: $ct;
+  column-count: $ct;
+}
+
+.cards-container {
+  column-break-inside: avoid;
+  .card {
+    z-index: 5;
+    display: inline-block;
+    overflow: visible;
+    .material-icons{
+      z-index: 5;
+    }
+  }
+}
+
+@media #{$small-and-down} {
+  .container {
+    width: 75%;
+  }
+  .cards-container {
+    @include column-count(1);
+    .card {
+      z-index: 5;
+    }
+  }
+}
+@media #{$medium-and-up} {
+  .container {
+    width: 75%;
+  }
+  .containerespesial {
+    width: 80%;
+    margin: auto;
+  }
+  .cards-container {
+    @include column-count(2);
+    .card {
+      z-index: 5;
+    }
+  }
+}
+@media #{$large-and-up} {
+  .container {
+    width: 60%;
+  }
+  .containerespesial {
+    width: 70%;
+    margin: auto;
+  }
+  .cards-container {
+    @include column-count(3);
+    .card {
+      z-index: 5;
+    }
+  }
+}
+
+
+/// Styles for demo
+.text-center {
+  text-align: center;
+}
