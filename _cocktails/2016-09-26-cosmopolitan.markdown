@@ -1,12 +1,13 @@
 ---
 layout: cocktail
 title:  "Cosmopolitan"
-categories: [cóctel, simple, vodka]
-imageURL: "http://i.imgur.com/dFJI2wm.jpg"
+categories: [Cocktails, simple, vodka]
+imageURL: "http://i.imgur.com/SOa8cqj.jpg"
 author: "Manuel Miralles"
 ---
 
 Al contrario que muchos cócteles, que nacieron de modas pasajeras, el Cosmopolitan ha tenido un rápido ascenso al panteón de los cócteles clásicos. Varios bármanes experimentaron con la receta, pero ninguno ha reclamado la creación del cóctel.
+
 
 **************************************************
 
@@ -20,7 +21,7 @@ Al contrario que muchos cócteles, que nacieron de modas pasajeras, el Cosmopoli
 
 **************************************************
 
-#### CÓMO HACER EL COCTEL COSMOPOLITAN
+#### COMO HACER EL COCTEL COSMOPOLITAN
 
 - Mezclar los ingredientes en un vaso de cóctel frío o en un vaso con hielo.
 
