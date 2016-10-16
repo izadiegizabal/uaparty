@@ -1,4 +1,3 @@
-<<<<<<< HEAD:_cocktails/2016-09-25-cosmopolitan.markdown
 ---
 layout: cocktail
 title:  "Cosmopolitan"
