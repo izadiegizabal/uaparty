@@ -137,9 +137,66 @@ footer.page-footer {
   margin-bottom: 5px;
 }
 
+.marra-cal {
+  max-width: 75%;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.cal-margin {
+  margin: auto;
+  margin-bottom: 25px;
+}
+
 .mobileko-menua {
   width: 250px;
 }
+
+.space-above {
+  margin-top: 75px;
+}
+
+.paddig-sides {
+  padding: 0 2%;
+}
+
+
+/*Bidaltzekoan kolorek*/
+
+/* label color */
+  .input-field label {
+    color: #82b1ff;
+  }
+  /* label focus color */
+  .input-field input[type]:focus + label {
+    color: #448aff;
+  }
+  /* label underline focus color */
+  .input-field input[type]:focus {
+    border-bottom: 1px solid #448aff;
+    box-shadow: 0 1px 0 0 #448aff;
+  }
+
+  /* textarea focus color */
+  .input-field textarea[name]:focus + label {
+    color: #448aff;
+  }
+  /* textarea underline focus color */
+  .input-field textarea[name]:focus {
+    border-bottom: 1px solid #448aff;
+    box-shadow: 0 1px 0 0 #448aff;
+  }
+
+  /* icon prefix color*/
+  .input-field .prefix {
+    color: #82b1ff;
+  }
+
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #448aff;
+  }
+
 
 /* Responsive iFrame for the calendar */
 .responsive-iframe-container {
@@ -159,9 +216,43 @@ footer.page-footer {
     height: 100%;
 }
 
+#car-one {
+  background: url(http://i.imgur.com/CoMS3RL.jpg) no-repeat center;
+  display: block;
+}
+
+#car-two {
+  background: url(http://i.imgur.com/48GIIAM.jpg) no-repeat center;
+  display: block;
+}
+
+#car-three {
+  background: url(http://i.imgur.com/XWRrLOB.jpg) no-repeat center;
+  display: block;
+}
+
+#car-four {
+  background: url(http://i.imgur.com/CcsFrAB.jpg) no-repeat center;
+  display: block;
+}
 //////////////////////////////////////////
 // Responsive design ////////////////////
 /////////////////////////////////////////
+
+// Media Query Ranges
+$small-screen-up: 601px !default;
+$medium-screen-up: 993px !default;
+$large-screen-up: 1201px !default;
+$small-screen: 600px !default;
+$medium-screen: 992px !default;
+$large-screen: 1200px !default;
+
+$medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
+$large-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
+$small-and-down: "only screen and (max-width : #{$small-screen})" !default;
+$medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
+$medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;
+
 
 @mixin column-count($ct) {
   -webkit-column-count: $ct;
@@ -172,8 +263,12 @@ footer.page-footer {
 .cards-container {
   column-break-inside: avoid;
   .card {
+    z-index: 5;
     display: inline-block;
     overflow: visible;
+    .material-icons{
+      z-index: 5;
+    }
   }
 }
 
@@ -183,6 +278,9 @@ footer.page-footer {
   }
   .cards-container {
     @include column-count(1);
+    .card {
+      z-index: 5;
+    }
   }
 }
 @media #{$medium-and-up} {
@@ -195,6 +293,9 @@ footer.page-footer {
   }
   .cards-container {
     @include column-count(2);
+    .card {
+      z-index: 5;
+    }
   }
 }
 @media #{$large-and-up} {
@@ -207,6 +308,9 @@ footer.page-footer {
   }
   .cards-container {
     @include column-count(3);
+    .card {
+      z-index: 5;
+    }
   }
 }
 

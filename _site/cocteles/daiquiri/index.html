@@ -20,7 +20,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body class="scrollspy">
     <header>
         <div class="navbar-fixed">
 <nav class="white blue-text z-depth-0">
@@ -31,13 +31,11 @@
         <li style="padding-left: 25px;"><a href="/calendario/" class="blue-text margena-kendu">Calendario</a></li>
         
             
-                <li style="padding-left: 25px;"><a href="/about/" class="blue-text margena-kendu">About</a></li>
-            
-        
-            
         
             
                 <li style="padding-left: 25px;"><a href="/bares/" class="blue-text margena-kendu">Bares</a></li>
+            
+        
             
         
             
@@ -46,6 +44,14 @@
         
             
         
+            
+        
+            
+                <li style="padding-left: 25px;"><a href="/juegos/" class="blue-text margena-kendu">Juegos</a></li>
+            
+        
+            
+                <li style="padding-left: 25px;"><a href="/sobre_nosotros/" class="blue-text margena-kendu">Sobre Nosotros</a></li>
             
         
             
@@ -102,10 +108,10 @@
                 <div class="divider"></div>
                 <article class="post-categories center-align">
                     <div class="chip teal white-text">Categorías</div>
-                    <div class="chip">Cocktails</div> <div class="chip">simple</div> <div class="chip">ron</div> 
+                    <div class="chip">cóctel</div> <div class="chip">simple</div> <div class="chip">ron</div> 
                 </article>
                 <article class="imagen-destacada">
-                  <img class="responsive-img imagen-destacada materialboxed" src=http://i.imgur.com/VdVzstE.jpg alt="Daiquiri">
+                  <img class="responsive-img imagen-destacada materialboxed" src=http://i.imgur.com/xU0wY1V.jpg alt="Daiquiri">
                 </article>
                 <article class="grey-text text-darken-2 post-content">
                     <p>Es fácil ver por qué el Daiquiri a base de ron oscuro es un clásico. La combinación perfectamente equilibrada de dulce, agrio y el espíritu es refrescante y fuerte y picante, pero también muy fácil de hacer en casa. Trate de hacer la receta a continuación y añadir esta bebida a toda prueba a su arsenal de coctelería.</p>
@@ -123,7 +129,7 @@
 
 <hr>
 
-<h4>COMO HACER EL COCTEL DAIQUIRI</h4>
+<h4>CÓMO HACER EL COCTEL DAIQUIRI</h4>
 
 <ul>
 <li><p>Añadir todos los ingredientes a una coctelera y se llena de hielo.</p></li>
@@ -184,7 +190,7 @@
 </div>
 <div class="footer-copyright">
   <div class="container center-align">
-    NULLPOINTER - 2016
+    © NULLPOINTER - 2016
   </div>
 </div>
 
@@ -212,6 +218,7 @@
             setTimeout(autoplay, 4500);
           }
           $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
             $('.carousel').carousel();
             $('.materialboxed').materialbox();
           });

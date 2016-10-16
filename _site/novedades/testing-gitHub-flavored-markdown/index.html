@@ -20,7 +20,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body class="scrollspy">
     <header>
         <div class="navbar-fixed">
 <nav class="white blue-text z-depth-0">
@@ -31,13 +31,11 @@
         <li style="padding-left: 25px;"><a href="/calendario/" class="blue-text margena-kendu">Calendario</a></li>
         
             
-                <li style="padding-left: 25px;"><a href="/about/" class="blue-text margena-kendu">About</a></li>
-            
-        
-            
         
             
                 <li style="padding-left: 25px;"><a href="/bares/" class="blue-text margena-kendu">Bares</a></li>
+            
+        
             
         
             
@@ -46,6 +44,14 @@
         
             
         
+            
+        
+            
+                <li style="padding-left: 25px;"><a href="/juegos/" class="blue-text margena-kendu">Juegos</a></li>
+            
+        
+            
+                <li style="padding-left: 25px;"><a href="/sobre_nosotros/" class="blue-text margena-kendu">Sobre Nosotros</a></li>
             
         
             
@@ -268,7 +274,7 @@ function hello(){
 </div>
 <div class="footer-copyright">
   <div class="container center-align">
-    NULLPOINTER - 2016
+    © NULLPOINTER - 2016
   </div>
 </div>
 
@@ -296,6 +302,7 @@ function hello(){
             setTimeout(autoplay, 4500);
           }
           $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
             $('.carousel').carousel();
             $('.materialboxed').materialbox();
           });

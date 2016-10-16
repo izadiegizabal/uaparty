@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <title>UA Party - About</title>
+    <title>UA Party - Sobre Nosotros</title>
     <meta name="description" content="UA Party nace con la intención de conectar a toda la comunidad de la Universidad de Alicante en el ámbito de salir de fiesta y ofrecerte toda la información de cada una de las fiestas que se organizan.">
     <link type="application/atom+xml" rel="alternate" href="http://uaparty.ml/feed.xml" title="UA Party" />
     <link type="text/css" rel="stylesheet" href="/assets/css/Material-icons.css" media="screen,projection">
     <link type="text/css" rel="stylesheet" href="/assets/css/app.css" media="screen,projection">
-    <link rel="canonical" href="http://uaparty.ml/about/">
+    <link rel="canonical" href="http://uaparty.ml/sobre_nosotros/">
 
     <!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -20,7 +20,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body class="scrollspy">
     <header>
         <div class="navbar-fixed">
 <nav class="white blue-text z-depth-0">
@@ -31,13 +31,11 @@
         <li style="padding-left: 25px;"><a href="/calendario/" class="blue-text margena-kendu">Calendario</a></li>
         
             
-                <li style="padding-left: 25px;"><a href="/about/" class="blue-text margena-kendu">About</a></li>
-            
-        
-            
         
             
                 <li style="padding-left: 25px;"><a href="/bares/" class="blue-text margena-kendu">Bares</a></li>
+            
+        
             
         
             
@@ -46,6 +44,14 @@
         
             
         
+            
+        
+            
+                <li style="padding-left: 25px;"><a href="/juegos/" class="blue-text margena-kendu">Juegos</a></li>
+            
+        
+            
+                <li style="padding-left: 25px;"><a href="/sobre_nosotros/" class="blue-text margena-kendu">Sobre Nosotros</a></li>
             
         
             
@@ -96,11 +102,11 @@
             <div class="col s12">
                 <div class="card white z-depth-0">
                     <div class="card-content">
-                        <div class="card-title center-align"><h2 class="thin blue-text">About</h2></div>
+                        <div class="card-title center-align"><h2 class="thin blue-text">Sobre Nosotros</h2></div>
                         <div class="divider"></div>
                         <br/>
                         <article class="grey-text text-darken-2 post-content">
-                        <p>Hello World! 
+                        <p>Hello World!
 Welcome to jekyll-materialize</p>
 
                         </article>
@@ -132,7 +138,7 @@ Welcome to jekyll-materialize</p>
 </div>
 <div class="footer-copyright">
   <div class="container center-align">
-    NULLPOINTER - 2016
+    © NULLPOINTER - 2016
   </div>
 </div>
 
@@ -160,6 +166,7 @@ Welcome to jekyll-materialize</p>
             setTimeout(autoplay, 4500);
           }
           $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
             $('.carousel').carousel();
             $('.materialboxed').materialbox();
           });

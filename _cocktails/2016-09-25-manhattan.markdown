@@ -1,7 +1,7 @@
 ---
 layout: cocktail
 title:  "Manhattan"
-categories: [Cocktails, simple, whiskey]
+categories: [cóctel, simple, whiskey]
 imageURL: "http://i.imgur.com/HbksQEa.jpg"
 author: "Luis Manero Lopez"
 ---
@@ -20,7 +20,7 @@ The Manhattan cocktail de ahora es lo que tendría que haber estado en el Projec
 
 **************************************************
 
-#### COMO HACER EL COCTEL MANHATTAN
+#### CÓMO HACER EL COCTEL MANHATTAN
 
 - Añadir todos los ingredientes en un vaso mezclador y se llenan de hielo.
 - Agitar bien y colar en una copa de cóctel helada.

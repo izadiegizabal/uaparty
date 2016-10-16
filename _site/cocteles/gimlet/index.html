@@ -20,7 +20,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body class="scrollspy">
     <header>
         <div class="navbar-fixed">
 <nav class="white blue-text z-depth-0">
@@ -31,13 +31,11 @@
         <li style="padding-left: 25px;"><a href="/calendario/" class="blue-text margena-kendu">Calendario</a></li>
         
             
-                <li style="padding-left: 25px;"><a href="/about/" class="blue-text margena-kendu">About</a></li>
-            
-        
-            
         
             
                 <li style="padding-left: 25px;"><a href="/bares/" class="blue-text margena-kendu">Bares</a></li>
+            
+        
             
         
             
@@ -46,6 +44,14 @@
         
             
         
+            
+        
+            
+                <li style="padding-left: 25px;"><a href="/juegos/" class="blue-text margena-kendu">Juegos</a></li>
+            
+        
+            
+                <li style="padding-left: 25px;"><a href="/sobre_nosotros/" class="blue-text margena-kendu">Sobre Nosotros</a></li>
             
         
             
@@ -102,10 +108,10 @@
                 <div class="divider"></div>
                 <article class="post-categories center-align">
                     <div class="chip teal white-text">Categorías</div>
-                    <div class="chip">Cocktails</div> <div class="chip">simple</div> <div class="chip">ginebra</div> 
+                    <div class="chip">cóctel</div> <div class="chip">simple</div> <div class="chip">ginebra</div> 
                 </article>
                 <article class="imagen-destacada">
-                  <img class="responsive-img imagen-destacada materialboxed" src=http://i.imgur.com/zjaFtPm.jpg alt="Gimlet">
+                  <img class="responsive-img imagen-destacada materialboxed" src=http://i.imgur.com/Of8hTz1.jpg alt="Gimlet">
                 </article>
                 <article class="grey-text text-darken-2 post-content">
                     <p>¿Quién dice que la medicina no puede sabeer increíble? Este cóctel fue creado para los navegantes como una manera de prevenir el escorbuto. No tardó mucho en darse cuenta de que esta bebida preventiva también era deliciosa. Mientras que el escorbuto puede ser del pasado, parece que esta bebida está aquí para quedarse. No se puede pedir mucho más simple o más refrescante que el clásico Gimlet.</p>
@@ -124,7 +130,7 @@
 
 <hr>
 
-<h4>COMO HACER EL COCTEL GIMLET</h4>
+<h4>CÓMO HACER EL COCTEL GIMLET</h4>
 
 <ul>
 <li><p>Añadir todos los ingredientes a una coctelera y se llenan de hielo.</p></li>
@@ -187,7 +193,7 @@
 </div>
 <div class="footer-copyright">
   <div class="container center-align">
-    NULLPOINTER - 2016
+    © NULLPOINTER - 2016
   </div>
 </div>
 
@@ -215,6 +221,7 @@
             setTimeout(autoplay, 4500);
           }
           $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
             $('.carousel').carousel();
             $('.materialboxed').materialbox();
           });
