@@ -9,7 +9,7 @@
     <link type="application/atom+xml" rel="alternate" href="http://uaparty.ml/feed.xml" title="UA Party" />
     <link type="text/css" rel="stylesheet" href="/assets/css/Material-icons.css" media="screen,projection">
     <link type="text/css" rel="stylesheet" href="/assets/css/app.css" media="screen,projection">
-    <link rel="canonical" href="http://uaparty.ml/cocteles/drymartini/">
+    <link rel="canonical" href="http://uaparty.ml/cocteles/drymartiny/">
 
     <!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -20,7 +20,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body class="scrollspy">
     <header>
         <div class="navbar-fixed">
 <nav class="white blue-text z-depth-0">
@@ -31,13 +31,11 @@
         <li style="padding-left: 25px;"><a href="/calendario/" class="blue-text margena-kendu">Calendario</a></li>
         
             
-                <li style="padding-left: 25px;"><a href="/about/" class="blue-text margena-kendu">About</a></li>
-            
-        
-            
         
             
                 <li style="padding-left: 25px;"><a href="/bares/" class="blue-text margena-kendu">Bares</a></li>
+            
+        
             
         
             
@@ -50,6 +48,10 @@
         
             
                 <li style="padding-left: 25px;"><a href="/juegos/" class="blue-text margena-kendu">Juegos</a></li>
+            
+        
+            
+                <li style="padding-left: 25px;"><a href="/sobre_nosotros/" class="blue-text margena-kendu">Sobre Nosotros</a></li>
             
         
             
@@ -106,7 +108,7 @@
                 <div class="divider"></div>
                 <article class="post-categories center-align">
                     <div class="chip teal white-text">Categorías</div>
-                    <div class="chip">Cocktails</div> <div class="chip">simple</div> <div class="chip">ginebra</div> <div class="chip">vermut</div> 
+                    <div class="chip">cóctel</div> <div class="chip">simple</div> <div class="chip">ginebra</div> <div class="chip">vermut</div> 
                 </article>
                 <article class="imagen-destacada">
                   <img class="responsive-img imagen-destacada materialboxed" src=http://i.imgur.com/WKehJf3.jpg alt="Dry Martini">
@@ -128,7 +130,7 @@
 
 <hr>
 
-<h4>COMO HACER EL COCTEL DRY MARTINI</h4>
+<h4>CÓMO HACER EL COCTEL DRY MARTINI</h4>
 
 <ul>
 <li><p>Añadir todos los ingredientes en un vaso mezclador y se llenan de hielo.</p></li>
@@ -191,7 +193,7 @@
 </div>
 <div class="footer-copyright">
   <div class="container center-align">
-    NULLPOINTER - 2016
+    © NULLPOINTER - 2016
   </div>
 </div>
 
@@ -219,6 +221,7 @@
             setTimeout(autoplay, 4500);
           }
           $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
             $('.carousel').carousel();
             $('.materialboxed').materialbox();
           });

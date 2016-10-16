@@ -1,15 +1,98 @@
+<?php
+
+if(isset($_POST['email'])) {
+
+    $email_to = "uapartyoficial@gmail.com";
+
+    $email_subject = "Nuevo post para la web";
+
+
+    function died($error) {
+
+        // your error code can go here
+
+        echo "Lo sentimos pero ha habido errores en el formulario enviado. ";
+
+        echo "Los erroes aparecen aquí abajo.<br /><br />";
+
+        echo $error."<br /><br />";
+
+        echo "Por favor, ve atrás y arregla estos errores.<br /><br />";
+
+        die();
+
+    }
+
+
+
+    // validation expected data exists
+
+    if(!isset($_POST['name']) ||
+
+        !isset($_POST['email']) ||
+
+        !isset($_POST['message'])) {
+
+        died('Lo sentimos, pero ha habido un error con el formulario enviado.');
+
+    }
+
+
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+
+
+    $email_message = "Detalles del formulario abajo.\n\n";
+
+
+
+    function clean_string($string) {
+
+      $bad = array("content-type","bcc:","to:","cc:","href");
+
+      return str_replace($bad,"",$string);
+
+    }
+
+
+
+    $email_message .= "Nombre: ".clean_string($name)."\n";
+
+    $email_message .= "Email: ".clean_string($email)."\n";
+
+    $email_message .= "Mensaje: ".clean_string($message)."\n";
+
+
+	// create email headers
+
+	$headers = 'De: '.$email."\r\n".
+
+	'Responder a: '.$email."\r\n" .
+
+	'X-Mailer: PHP/' . phpversion();
+
+	@mail($email_to, $email_subject, $email_message, $headers);
+
+
+?>
+
+
+
+<!-- include your own success html here -->
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <title>UA Party - Voy al bar</title>
-    <meta name="description" content="Un juego muy divertido para jugar entre amigos y conocidos en el que solo la memoria te podrá salvar.">
+    <title>UA Party - Sobre Nosotros</title>
+    <meta name="description" content="UA Party nace con la intención de conectar a toda la comunidad de la Universidad de Alicante en el ámbito de salir de fiesta y ofrecerte toda la información de cada una de las fiestas que se organizan.">
     <link type="application/atom+xml" rel="alternate" href="http://uaparty.ml/feed.xml" title="UA Party" />
     <link type="text/css" rel="stylesheet" href="/assets/css/Material-icons.css" media="screen,projection">
     <link type="text/css" rel="stylesheet" href="/assets/css/app.css" media="screen,projection">
-    <link rel="canonical" href="http://uaparty.ml/juegos/voyalbar/">
+    <link rel="canonical" href="http://uaparty.ml/sobre_nosotros/">
 
     <!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -29,33 +112,33 @@
         <img src="/assets/img/logo_ua_party.svg" style="height: 150px; padding: 30px 0 35px 75px; margin-bottom: -30px;" alt="logo uaparty oficial">
         <li style="padding-left: 25px;"><a href="/" class="blue-text margena-kendu">Novedades</a></li>
         <li style="padding-left: 25px;"><a href="/calendario/" class="blue-text margena-kendu">Calendario</a></li>
-        
-            
-        
-            
+
+
+
+
                 <li style="padding-left: 25px;"><a href="/bares/" class="blue-text margena-kendu">Bares</a></li>
-            
-        
-            
-        
-            
+
+
+
+
+
                 <li style="padding-left: 25px;"><a href="/cocteles/" class="blue-text margena-kendu">Cócteles</a></li>
-            
-        
-            
-        
-            
-        
-            
+
+
+
+
+
+
+
                 <li style="padding-left: 25px;"><a href="/juegos/" class="blue-text margena-kendu">Juegos</a></li>
-            
-        
-            
+
+
+
                 <li style="padding-left: 25px;"><a href="/sobre_nosotros/" class="blue-text margena-kendu">Sobre Nosotros</a></li>
-            
-        
-            
-        
+
+
+
+
     </ul>
     <div class="container container-large">
     <a class="brand-logo" href="/" class="blue-text" style="padding: 0 20px;"><span class="light blue-text">UA<b>Party</b></span></a>
@@ -96,99 +179,23 @@
 
     </header>
     <main>
-        <div class="card z-depth-0 no-margin">
-<div class="container">
-<div class="section">
-    <div class="row">
-        <div class="col s12">
-            <div class="card-content">
-                <div class="card-title center-align"><h2 class="thin blue-text">Voy al bar</h2></div>
-                <h5 class="center-align grey-text text-darken-1 thin">Javi Cabanes Garcia</h5>
-                <br/>
-                <div class="divider"></div>
-                <article class="post-categories center-align">
-                    <div class="chip teal white-text">Categorías</div>
-                    <div class="chip">beber</div> <div class="chip">juego</div> <div class="chip">alcohol</div> <div class="chip">chupitos</div> <div class="chip">memoria</div> <div class="chip">encadenados</div> 
-                </article>
-                <article class="imagen-destacada">
-                  <img class="responsive-img imagen-destacada materialboxed" src=http://i.imgur.com/D5HUFZe.jpg alt="Voy al bar">
-                </article>
-                <article class="grey-text text-darken-2 post-content">
-                    <p>Un juego muy divertido para jugar entre amigos y conocidos en el que solo la memoria te podrá salvar.</p>
-
-<hr>
-
-<h4>ORÍGENES</h4>
-
-<p>El juego no tiene un origen concreto, es más bien un origen popular.</p>
-
-<hr>
-
-<h4>MATERIALES NECESARIOS</h4>
-
-<ul>
-<li>Chupitos</li>
-<li>Memoria</li>
-</ul>
-
-<hr>
-
-<h4>DESCRIPCIÓN</h4>
-
-<p>¿Alguna vez jugaron al juego “Me voy de picnic”? Esto es igual, solo que con tragos. La primera persona comienza diciendo “Voy al bar y necesito pedir un mojito” (o cualquier otra bebida alcohólica). Después de eso, el jugador que le sigue repite la bebida que el jugador anterior mencionó… pero agrega otra bebida a la lista.
-Este es un ejemplo de lo que deberían decir después de algunas rondas: “Voy al bar y necesito pedir un mojito, un chupito de tequila, un gin tonic, y un hot toddy”. Se sigue hasta que alguien se equivoque, quien se equivoque primero tiene que tomar un shot y empezará el siguiente una nueva ronda.</p>
-
-<hr>
-
-<h4>REGLAS</h4>
-
-<ul>
-<li>Siempre se ha de empezar de la misma forma</li>
-<li>Antes de añadir una nueva bebida se ha de nombrar la frase anterior en el mismo orden</li>
-<li>No se puede repetir bebida dentro de la misma ronda</li>
-<li>Si la persona tarda más de 60 segundos en decir la nueva bebida ha de beber pero si sigue la ronda sin volver a empezar.</li>
-</ul>
-
-<hr>
-
-<p>Un juego muy entretenido para cualquier lugar y situación</p>
-
-                </article>
-                <article class="grey-text text-darken-2">
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                </article>
-                <article class="post-comment">
-                    
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-      var disqus_shortname = 'uaparty';
-      (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-                </article>
+        <div class="container">
+    <div class="section">
+        <div class="row">
+            <div class="col s12">
+                <div class="card white z-depth-0">
+                    <div class="card-content">
+                        <div class="card-title center-align"><h2 class="thin blue-text">¡Gracias!</h2></div>
+                        <div class="divider"></div>
+                        <br/>
+                        <article class="grey-text text-darken-2 post-content">
+                        <p>Muchísimas gracias por la colaboración! Estamos revisando el post y nos pondremos en contacto muy pronto. También nos gustaría informar que has ganado una participación para el sorteo mensual! Recuerda seguirnos en nuestras redes sociales (@uapartyoficial) para ver si eres el/la afortunado/a y estar al tanto de todas las novedades.</p>
+                        </article>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-</div>
 </div>
 
     </main>
@@ -199,7 +206,7 @@ Este es un ejemplo de lo que deberían decir después de algunas rondas: “Voy 
       <h5 class="white-text">Links</h5>
       <ul>
         <li><a class="grey-text text-lighten-3" href="https://fb.me/uapartyoficial"><i class="fa fa-facebook-square"></i>&nbsp;&nbsp;uapartyoficial</a></li>
-        
+
         <li><a class="grey-text text-lighten-3" href="https://twitter.com/uapartyoficial"><i class="fa fa-twitter"></i>&nbsp;&nbsp;@ uapartyoficial</a></li>
         <li><a class="grey-text text-lighten-3" href="mailto:uapartyoficial@gmail.com"><i class="fa fa-send"></i>&nbsp;&nbsp;uapartyoficial@gmail.com</a></li>
       </ul>
@@ -248,3 +255,11 @@ Este es un ejemplo de lo que deberían decir después de algunas rondas: “Voy 
     </script>
 </body>
 </html>
+
+
+
+<?php
+
+}
+
+?>

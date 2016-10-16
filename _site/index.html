@@ -20,7 +20,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body class="scrollspy">
     <header>
         <div class="navbar-fixed">
 <nav class="white blue-text z-depth-0">
@@ -31,13 +31,11 @@
         <li style="padding-left: 25px;"><a href="/calendario/" class="blue-text margena-kendu">Calendario</a></li>
         
             
-                <li style="padding-left: 25px;"><a href="/about/" class="blue-text margena-kendu">About</a></li>
-            
-        
-            
         
             
                 <li style="padding-left: 25px;"><a href="/bares/" class="blue-text margena-kendu">Bares</a></li>
+            
+        
             
         
             
@@ -50,6 +48,10 @@
         
             
                 <li style="padding-left: 25px;"><a href="/juegos/" class="blue-text margena-kendu">Juegos</a></li>
+            
+        
+            
+                <li style="padding-left: 25px;"><a href="/sobre_nosotros/" class="blue-text margena-kendu">Sobre Nosotros</a></li>
             
         
             
@@ -99,7 +101,7 @@
   <div id="car-one" class="carousel-item red white-text" href="#one!">
     <h2>Novedades</h2>
     <p class="white-text">Mantente informado</p>
-    <a class="btn waves-effect white blue-grey-text darken-text-3" href="" style="margin-top: 180px;">acceder</a>
+    <a class="btn waves-effect white blue-grey-text darken-text-3" href="#novedades" style="margin-top: 180px;">acceder</a>
   </div>
   <div id="car-two" class="carousel-item amber white-text" href="#two!">
     <h2>Bares</h2>
@@ -118,7 +120,7 @@
   </div>
 </div>
 
-<div class="container">
+<div id="novedades" class="container section scrollspy">
   <div class="group-article">
     <div class="row no-margin">
       <div class="col s12">
@@ -226,7 +228,7 @@ For more information about GFM, click here.
 </div>
 <div class="footer-copyright">
   <div class="container center-align">
-    NULLPOINTER - 2016
+    © NULLPOINTER - 2016
   </div>
 </div>
 
@@ -254,6 +256,7 @@ For more information about GFM, click here.
             setTimeout(autoplay, 4500);
           }
           $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
             $('.carousel').carousel();
             $('.materialboxed').materialbox();
           });

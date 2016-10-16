@@ -20,7 +20,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body class="scrollspy">
     <header>
         <div class="navbar-fixed">
 <nav class="white blue-text z-depth-0">
@@ -31,13 +31,11 @@
         <li style="padding-left: 25px;"><a href="/calendario/" class="blue-text margena-kendu">Calendario</a></li>
         
             
-                <li style="padding-left: 25px;"><a href="/about/" class="blue-text margena-kendu">About</a></li>
-            
-        
-            
         
             
                 <li style="padding-left: 25px;"><a href="/bares/" class="blue-text margena-kendu">Bares</a></li>
+            
+        
             
         
             
@@ -50,6 +48,10 @@
         
             
                 <li style="padding-left: 25px;"><a href="/juegos/" class="blue-text margena-kendu">Juegos</a></li>
+            
+        
+            
+                <li style="padding-left: 25px;"><a href="/sobre_nosotros/" class="blue-text margena-kendu">Sobre Nosotros</a></li>
             
         
             
@@ -95,15 +97,15 @@
     </header>
     <main>
         <div class="containerespesial">
-    <div class="section">
-        <div class="row">
-            <div class="col s12">
-                <div class="card white z-depth-0">
-                    <div class="card-content">
-                        <div class="card-title center-align"><h2 class="thin blue-text" style="margin-top: -17px;">Bares</h2></div>
-                        <div class="divider center-align" style="max-width: 90%;margin-left: 5%;"></div>
-                        <article class="grey-text text-darken-2 post-content">
-                        <div class="section">
+  <div class="section">
+    <div class="row">
+      <div class="col s12">
+        <div class="card white z-depth-0">
+          <div class="card-content">
+            <div class="card-title center-align"><h2 class="thin blue-text" style="margin-top: -17px;">Bares</h2></div>
+            <div class="divider center-align" style="max-width: 90%;margin-left: 5%;"></div>
+            <article class="grey-text text-darken-2 post-content">
+              <div class="section">
   <div class="col s12 cards-container">
       
       <div class="card">
@@ -439,12 +441,45 @@ Conócenos: http://www.marearock.com/
 
 </div>
 
-                        </article>
+            </article>
+
+            <div class="section">
+              <div class="row paddig-sides">
+                <div class="space-above card col s12">
+                  <form class="col s12" action="../contact.php" method="post">
+                    <h3 class="thin blue-text">Envíanos tu post</h3>
+                    <p>En UA Party creemos que con la colaboración de todo el mundo podemos lograr que la web siga creciendo y mejorando. Por ello, pedimos tu colaboración. En el formulario inferior puedes enviar tu post para seguir ampliando cualquiera de nuestras secciones, ya sea <em>bares</em>, <em>cócteles</em> o <em>juegos</em>. De esta forma, nuestro equipo podrá valorar el post y añadirla a la web! Además, por cada post enviado entrarás en el sorteo mensual de entradas y otros regalos! Así que ya sabes, no pierdas tiempo y ¡participa!</p>
+                    <p>&nbsp;</p>
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="icon_prefix" name="name" type="text" class="validate">
+                      <label for="icon_prefix">Nombre</label>
                     </div>
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">email</i>
+                      <input id="email" name="email" type="email" class="validate">
+                      <label for="email" data-error="Incorrecto">Email</label>
+                    </div>
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">mode_edit</i>
+                      <textarea id="icon_prefix2" name="message" class="materialize-textarea"></textarea>
+                      <label for="icon_prefix2">Post</label>
+                    </div>
+                    <div class="col offset-l9 offset-m8 offset-s7 s5">
+                      <button class="btn waves-effect waves-light red accent-2" type="submit">Enviar
+                        <i class="material-icons prefix right">send</i>
+                      </button>
+                    </div>
+                    <p>&nbsp;</p>
+                  </form>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
     </main>
@@ -468,7 +503,7 @@ Conócenos: http://www.marearock.com/
 </div>
 <div class="footer-copyright">
   <div class="container center-align">
-    NULLPOINTER - 2016
+    © NULLPOINTER - 2016
   </div>
 </div>
 
@@ -496,6 +531,7 @@ Conócenos: http://www.marearock.com/
             setTimeout(autoplay, 4500);
           }
           $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
             $('.carousel').carousel();
             $('.materialboxed').materialbox();
           });
