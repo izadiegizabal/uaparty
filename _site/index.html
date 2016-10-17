@@ -1,11 +1,9 @@
 <?php
-
-ob_start("ob_gzhandler");
-
+if(!ob_start("ob_gzhandler")) ob_start();
 ?>
 
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +11,8 @@ ob_start("ob_gzhandler");
     <title>UA Party</title>
     <meta name="description" content="UA Party nace con la intención de conectar a toda la comunidad de la Universidad de Alicante en el ámbito de salir de fiesta y ofrecerte toda la información de cada una de las fiestas que se organizan.">
     <link type="application/atom+xml" rel="alternate" href="http://uaparty.ml/feed.xml" title="UA Party" />
-    <link type="text/css" rel="stylesheet" href="/assets/css/Material-icons.css" media="screen,projection">
     <link type="text/css" rel="stylesheet" href="/assets/css/app.css" media="screen,projection">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" media="screen,projection">
     <link rel="canonical" href="http://uaparty.ml/">
 
     <!-- FAVICONS -->
@@ -136,23 +134,21 @@ ob_start("ob_gzhandler");
     </div>
 
     
-    <a href="/novedades/testing-gitHub-flavored-markdown/">
+    <a href="/novedades/tallarina-theone/">
       <div class="row">
         <div class="col s12 m12">
           <div class="card waves-effect">
             <div class="img-wrap card-image" style="height:50%;max-height:300px;overflow:hidden;">
-              <img src="https://aws.producthunt.com/collection/96408/baracktocat.jpg" alt="Testing GitHub Flavored Markdown" class="borroso">
-              <span class="card-title">Testing GitHub Flavored Markdown</span>
+              <img src="http://i.imgur.com/S4PLDE2.jpg" alt="Tallarina Halloween - The One" class="borroso">
+              <span class="card-title">Tallarina Halloween - The One</span>
             </div>
             <div class="card-content">
-              <p class="grey-text text-darken-1 light fetxa-tarjeta">Publicado el 10/10/2015.</p>
-              <p class="grey-text text-darken-2 light">Jekyll is simple but powerfull, and can hosted easely on github.
-This is cheat codes for creating beautiful article with GFM (Github Flavored Markdown).
-For more information about GFM, click here.
+              <p class="grey-text text-darken-1 light fetxa-tarjeta">Publicado el 16/10/2016.</p>
+              <p class="grey-text text-darken-2 light">El jueves dia 27 se lia en sala the one con TALLARINA especial HALLOWEEN. Santi Bertomeu y Alex watkinson tienen una buena preparada! Ven y disfruta de esta gran fiesta universitaria que no solo tiene la mejor música comercial, además cuenta con otras sorpresas como el lanzacamisetas de Onion and Black, confeti, tirafuegos y mucho más.
 </p>
             </div>
             <div class="card-action">
-              <a class="blue-text" href="/novedades/testing-gitHub-flavored-markdown/">Continuar leyendo</a>
+              <a class="blue-text" href="/novedades/tallarina-theone/">Continuar leyendo</a>
             </div>
           </div>
 
@@ -160,21 +156,21 @@ For more information about GFM, click here.
       </div>
     </a>
     
-    <a href="/novedades/pain-itself/">
+    <a href="/novedades/remember_theone/">
       <div class="row">
         <div class="col s12 m12">
           <div class="card waves-effect">
             <div class="img-wrap card-image" style="height:50%;max-height:300px;overflow:hidden;">
-              <img src="http://i.imgur.com/pOoElb8.jpg" alt="Pain itself" class="borroso">
-              <span class="card-title">Pain itself</span>
+              <img src="http://i.imgur.com/XzSO372.jpg" alt="Remember Halloween - The One" class="borroso">
+              <span class="card-title">Remember Halloween - The One</span>
             </div>
             <div class="card-content">
-              <p class="grey-text text-darken-1 light fetxa-tarjeta">Publicado el 10/10/2015.</p>
-              <p class="grey-text text-darken-2 light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.
+              <p class="grey-text text-darken-1 light fetxa-tarjeta">Publicado el 16/10/2016.</p>
+              <p class="grey-text text-darken-2 light">Vuelve la mejor fiesta Remember de Alicante, vuelve REMEMBER THE ONE, en esta ocasión en su versión Halloween y con djs como BATISTE - CHUMI DJ - ALEX GIMENEZ , SEVI Y NANO.
 </p>
             </div>
             <div class="card-action">
-              <a class="blue-text" href="/novedades/pain-itself/">Continuar leyendo</a>
+              <a class="blue-text" href="/novedades/remember_theone/">Continuar leyendo</a>
             </div>
           </div>
 
@@ -182,21 +178,88 @@ For more information about GFM, click here.
       </div>
     </a>
     
-    <a href="/novedades/welcome-to-jekyll/">
+    <a href="/novedades/fiesta_reloj_ikebana/">
       <div class="row">
         <div class="col s12 m12">
           <div class="card waves-effect">
             <div class="img-wrap card-image" style="height:50%;max-height:300px;overflow:hidden;">
-              <img src="http://timjames.me/img/jekyll/feature.jpg" alt="Welcome to Jekyll!" class="borroso">
-              <span class="card-title">Welcome to Jekyll!</span>
+              <img src="http://i.imgur.com/gdAyKqt.jpg" alt="Fiesta del Reloj- Ikebana" class="borroso">
+              <span class="card-title">Fiesta del Reloj- Ikebana</span>
             </div>
             <div class="card-content">
-              <p class="grey-text text-darken-1 light fetxa-tarjeta">Publicado el 09/10/2015.</p>
-              <p class="grey-text text-darken-2 light">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.
+              <p class="grey-text text-darken-1 light fetxa-tarjeta">Publicado el 16/10/2016.</p>
+              <p class="grey-text text-darken-2 light">¡Contando las horas! Porque el tiempo es oro, en ikebana San Vicente lo sabemos y nos lo pasamos genial con todos vosotros. Todos los jueves tu copa de primeras marcas preferida desde 1€, aunque solo si te das prisa, así que no tardes en acercarte aquí con nostros.
 </p>
             </div>
             <div class="card-action">
-              <a class="blue-text" href="/novedades/welcome-to-jekyll/">Continuar leyendo</a>
+              <a class="blue-text" href="/novedades/fiesta_reloj_ikebana/">Continuar leyendo</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </a>
+    
+    <a href="/novedades/fiesta_alemana_carpe_diem/">
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="card waves-effect">
+            <div class="img-wrap card-image" style="height:50%;max-height:300px;overflow:hidden;">
+              <img src="http://i.imgur.com/qj6ueUc.jpg" alt="Fiesta Alemana - Carpe Diem" class="borroso">
+              <span class="card-title">Fiesta Alemana - Carpe Diem</span>
+            </div>
+            <div class="card-content">
+              <p class="grey-text text-darken-1 light fetxa-tarjeta">Publicado el 16/10/2016.</p>
+              <p class="grey-text text-darken-2 light">Este jueves 6 de octubre es el turno para los alemanes para demostrar a alicante cómo beber (porque eso es lo único que aparte de ser puntual, recto, serio y  jugar al fútbol, donde realmente sabemos que destacan los alemanes) así que ven y bebe al salvaje estilo alemán !!!
+¡Va a ser épico!
+</p>
+            </div>
+            <div class="card-action">
+              <a class="blue-text" href="/novedades/fiesta_alemana_carpe_diem/">Continuar leyendo</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </a>
+    
+    <a href="/novedades/comedy/">
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="card waves-effect">
+            <div class="img-wrap card-image" style="height:50%;max-height:300px;overflow:hidden;">
+              <img src="http://i.imgur.com/WYEFokM.jpg" alt="Alicante Comedy Club" class="borroso">
+              <span class="card-title">Alicante Comedy Club</span>
+            </div>
+            <div class="card-content">
+              <p class="grey-text text-darken-1 light fetxa-tarjeta">Publicado el 16/10/2016.</p>
+              <p class="grey-text text-darken-2 light">Llega al Pub La Continental uno de los espectáculos más originales y exclusivos del panorama de la comedia. Se trata del Alicante Comedy Club y lo podrás disfrutar cada lunes, a las 22 horas. El Alicante Comedy Club, que nació en San Vicente, es una apuesta por la comedia y sus nuevos valores que realizan sus monólogos compartiendo escenario con otros cómicos ya consagrado.
+</p>
+            </div>
+            <div class="card-action">
+              <a class="blue-text" href="/novedades/comedy/">Continuar leyendo</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </a>
+    
+    <a href="/novedades/batalla_de_bandas/">
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="card waves-effect">
+            <div class="img-wrap card-image" style="height:50%;max-height:300px;overflow:hidden;">
+              <img src="http://i.imgur.com/DJ5qV4A.jpg" alt="Batalla de Bandas - The One" class="borroso">
+              <span class="card-title">Batalla de Bandas - The One</span>
+            </div>
+            <div class="card-content">
+              <p class="grey-text text-darken-1 light fetxa-tarjeta">Publicado el 16/10/2016.</p>
+              <p class="grey-text text-darken-2 light">¿Te imaginas ser el telonero de uno de tus grupos favoritos? Consíguelo, en The One organizamos la primera BATALLA DE BANDAS y los ganadores podrán cumplir su sueño siendo el telonero de uno de sus grupos referencia además de premios en metálico, un video de la actuación el día que telonees a uno de los grandes con la sala llena de gente escuchando tu música y para que aún te sientas más especial, tendrás tu propio camerino con el rider de hospitalidad que se les cede a las grandes bandas y un recuerdo que conservarás toda tu vida.
+</p>
+            </div>
+            <div class="card-action">
+              <a class="blue-text" href="/novedades/batalla_de_bandas/">Continuar leyendo</a>
             </div>
           </div>
 

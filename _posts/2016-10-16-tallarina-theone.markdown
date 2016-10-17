@@ -5,11 +5,13 @@ categories: [universitaria, Halloween, The One]
 imageURL: "http://i.imgur.com/S4PLDE2.jpg"
 ---
 
-El jueves dia 27 se lia en sala the one con TALLARINA especial HALLOWEEN. Santi Bertomeu y Alex watkinson tienen una buena preparada!
+El jueves dia 27 se lia en sala the one con TALLARINA especial HALLOWEEN. Santi Bertomeu y Alex watkinson tienen una buena preparada! Ven y disfruta de esta gran fiesta universitaria que no solo tiene la mejor música comercial, además cuenta con otras sorpresas como el lanzacamisetas de Onion and Black, confeti, tirafuegos y mucho más.
 
-Ven y disfruta de esta gran fiesta universitaria que no solo tiene la mejor música comercial, además cuenta con otras sorpresas como el lanzacamisetas de Onion and Black, confeti, tirafuegos y mucho más.
+********************************************************
 
 ¿Te lo vas a perder?
+
+********************************************************
 
 **Fecha:** Jueves, 27 de octubre
 

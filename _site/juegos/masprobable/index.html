@@ -1,11 +1,9 @@
 <?php
-
-ob_start("ob_gzhandler");
-
+if(!ob_start("ob_gzhandler")) ob_start();
 ?>
 
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +11,8 @@ ob_start("ob_gzhandler");
     <title>UA Party - El más probable</title>
     <meta name="description" content="Un juego genial para conocerse más entre amigos y para hacer nuevos amigos.  Ideal para jugar en un sitio tranquilo en que se puedan escuchar al hablar como ...">
     <link type="application/atom+xml" rel="alternate" href="http://uaparty.ml/feed.xml" title="UA Party" />
-    <link type="text/css" rel="stylesheet" href="/assets/css/Material-icons.css" media="screen,projection">
     <link type="text/css" rel="stylesheet" href="/assets/css/app.css" media="screen,projection">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" media="screen,projection">
     <link rel="canonical" href="http://uaparty.ml/juegos/masprobable/">
 
     <!-- FAVICONS -->
