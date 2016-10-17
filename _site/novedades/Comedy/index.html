@@ -1,7 +1,5 @@
 <?php
-
-ob_start("ob_gzhandler");
-
+if(!ob_start("ob_gzhandler")) ob_start();
 ?>
 
 <!DOCTYPE html>
@@ -15,7 +13,7 @@ ob_start("ob_gzhandler");
     <link type="application/atom+xml" rel="alternate" href="http://uaparty.ml/feed.xml" title="UA Party" />
     <link type="text/css" rel="stylesheet" href="/assets/css/app.css" media="screen,projection">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" media="screen,projection">
-    <link rel="canonical" href="http://uaparty.ml/novedades/Comedy/">
+    <link rel="canonical" href="http://uaparty.ml/novedades/comedy/">
 
     <!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -129,6 +127,8 @@ ob_start("ob_gzhandler");
 <hr>
 
 <p>El espectáculo también contempla la actuación de un grupo de teatro especializado en actuaciones de improvisación denominada ‘Improvivencia’, en la que el público puede elegir los personajes, la situación y el cierre de la escena, entre otros elementos.</p>
+
+<hr>
 
 <p><strong>Fecha:</strong> todos los lunes</p>
 
