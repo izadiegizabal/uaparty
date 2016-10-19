@@ -1,3 +1,9 @@
+<?php
+
+ob_start("ob_gzhandler");
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -225,3 +231,10 @@ Domingos y lunes cerrado</p>
     </script>
 </body>
 </html>
+
+
+<?php
+
+ob_flush();
+
+?>
