@@ -1,8 +1,9 @@
 ---
 layout: cocktail
 title:  "Cosmopolitan"
-categories: [Cocktails, simple, vodka]
+categories: [cóctel, simple, vodka]
 imageURL: "http://i.imgur.com/dFJI2wm.jpg"
+mini_imageURL: "http://i.imgur.com/pKWttJS.jpg"
 author: "Manuel Miralles"
 ---
 

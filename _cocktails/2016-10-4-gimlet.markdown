@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Gimlet"
 categories: [cóctel, simple, ginebra]
 imageURL: "http://i.imgur.com/Of8hTz1.jpg"
+mini_imageURL: "http://i.imgur.com/V9YMcHG.jpg"
 author: "Antonio Carmona"
 ---
 

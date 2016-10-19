@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Bloody Mary"
 categories: [cóctel, simple, vodka]
 imageURL: "http://i.imgur.com/xyNi6Ad.jpg"
+mini_imageURL: "http://i.imgur.com/Xiu0WpA.jpg"
 author: "Juan Anton Perez"
 ---
 
