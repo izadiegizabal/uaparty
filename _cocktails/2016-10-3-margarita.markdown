@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Margarita"
 categories: [cóctel, simple, tequila]
 imageURL: "http://i.imgur.com/8Ih9ufP.png"
+mini_imageURL: "http://i.imgur.com/DtZYn7D.jpg"
 author: "Alejandro Jaen"
 ---
 

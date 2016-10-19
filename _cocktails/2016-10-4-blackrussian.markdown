@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Black Russian"
 categories: [cóctel, simple, vodka]
 imageURL: "http://i.imgur.com/68GQjmf.jpg"
+mini_imageURL: "http://i.imgur.com/K9pfEpD.jpg"
 author: "Emilio Granados García"
 ---
 
