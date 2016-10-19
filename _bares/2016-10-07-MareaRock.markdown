@@ -1,8 +1,9 @@
----
+﻿---
 layout: cocktail
 title:  "MareaRock"
 category: [Alicante, fin de semana, bar, música]
 imageURL: "http://i.imgur.com/Mqe7KJE.png"
+mini_imageURL: "http://i.imgur.com/A0YIbBm.jpg"
 author: "Carlos Carrizosa"
 ---
 
@@ -20,4 +21,4 @@ la decoración, siendo todo negro con carteles de festivales y banderas tricolor
 
 **Teléfono:** 690 351 012
 
-**Conócenos:** [http://www.marearock.com/](http://www.marearock.com/)
+**Conócenos:** [www.marearock.com](http://www.marearock.com/)

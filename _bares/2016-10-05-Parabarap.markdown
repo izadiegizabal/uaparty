@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Parabarap"
 category: [Alicante, fin de semana, bar, low cost]
 imageURL: "http://i.imgur.com/lQ44tNeg.png"
+mini_imageURL: "http://i.imgur.com/ugeFLD0.jpg" 
 author: "Luis Pérez"
 ---
 
