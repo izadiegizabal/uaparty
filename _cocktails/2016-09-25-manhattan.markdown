@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Manhattan"
 categories: [cóctel, simple, whiskey]
 imageURL: "http://i.imgur.com/HbksQEa.jpg"
+mini_imageURL: "http://i.imgur.com/5vAALAX.jpg"
 author: "Luis Manero Lopez"
 ---
 

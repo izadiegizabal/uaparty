@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Daiquiri"
 categories: [cóctel, simple, ron]
 imageURL: "http://i.imgur.com/xU0wY1V.jpg"
+mini_imageURL: "http://i.imgur.com/a9l8eIc.jpg"
 author: "Juan Rodriguez Baeza"
 ---
 
