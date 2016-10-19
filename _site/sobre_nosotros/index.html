@@ -1,5 +1,9 @@
+<?php
+if(!ob_start("ob_gzhandler")) ob_start();
+?>
+
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +11,8 @@
     <title>UA Party - Sobre Nosotros</title>
     <meta name="description" content="UA Party nace con la intención de conectar a toda la comunidad de la Universidad de Alicante en el ámbito de salir de fiesta y ofrecerte toda la información de cada una de las fiestas que se organizan.">
     <link type="application/atom+xml" rel="alternate" href="http://uaparty.ml/feed.xml" title="UA Party" />
-    <link type="text/css" rel="stylesheet" href="/assets/css/Material-icons.css" media="screen,projection">
     <link type="text/css" rel="stylesheet" href="/assets/css/app.css" media="screen,projection">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" media="screen,projection">
     <link rel="canonical" href="http://uaparty.ml/sobre_nosotros/">
 
     <!-- FAVICONS -->
@@ -174,3 +178,10 @@ Welcome to jekyll-materialize</p>
     </script>
 </body>
 </html>
+
+
+<?php
+
+ob_flush();
+
+?>

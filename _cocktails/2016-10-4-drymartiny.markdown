@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Dry Martini"
 categories: [cóctel, simple, ginebra, vermut]
 imageURL: "http://i.imgur.com/WKehJf3.jpg"
+mini_imageURL: "http://i.imgur.com/z6sJDhg.jpg"
 author: "Jose Roca Martinez"
 ---
 

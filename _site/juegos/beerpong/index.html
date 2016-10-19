@@ -1,5 +1,9 @@
+<?php
+if(!ob_start("ob_gzhandler")) ob_start();
+?>
+
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +11,8 @@
     <title>UA Party - Beerpong</title>
     <meta name="description" content="Beer Pong (Beirut) es el juego de bebida por excelencia entre los jóvenes universitarios de todo el mundo.">
     <link type="application/atom+xml" rel="alternate" href="http://uaparty.ml/feed.xml" title="UA Party" />
-    <link type="text/css" rel="stylesheet" href="/assets/css/Material-icons.css" media="screen,projection">
     <link type="text/css" rel="stylesheet" href="/assets/css/app.css" media="screen,projection">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" media="screen,projection">
     <link rel="canonical" href="http://uaparty.ml/juegos/beerpong/">
 
     <!-- FAVICONS -->
@@ -185,7 +189,7 @@
 
 <h4>LIGAS</h4>
 
-<p>Todos los miércoles en <a href="uaparty.ml/bares/La_Antigua">La Antigua</a> puedes participar en un torneo por 3 euros(incluye barra libre de cerveza y sangría de 22:00 a 00:00) inscribiéndote antes de las 00:00 con tu pareja.</p>
+<p>Todos los miércoles en <a href="../../bares/La_Antigua">La Antigua</a> puedes participar en un torneo por 3 euros(incluye barra libre de cerveza y sangría de 22:00 a 00:00) inscribiéndote antes de las 00:00 con tu pareja.</p>
 
 <hr>
 
@@ -290,3 +294,10 @@
     </script>
 </body>
 </html>
+
+
+<?php
+
+ob_flush();
+
+?>

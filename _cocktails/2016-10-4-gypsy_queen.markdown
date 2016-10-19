@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Gypsy Queen"
 categories: [cóctel, simple, vodka]
 imageURL: "http://i.imgur.com/o7bAn0N.jpg"
+mini_imageURL: "http://i.imgur.com/L3VdcDW.jpg"
 author: "Samuel Lopez Jimenez"
 ---
 
