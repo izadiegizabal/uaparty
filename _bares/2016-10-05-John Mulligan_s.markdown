@@ -3,6 +3,7 @@ layout: cocktail
 title:  "John Mulligan's"
 category: [Alicante, tardeo, fin de semana, bar]
 imageURL: "http://i.imgur.com/oM1s3DT.png"
+mini_imageURL: "http://i.imgur.com/AVeA6hY.jpg" 
 author: "Alicia Martínez"
 ---
 

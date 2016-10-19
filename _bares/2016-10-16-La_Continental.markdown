@@ -3,6 +3,7 @@ layout: cocktail
 title:  "La Continental"
 category: [San Vicente, comedia, bar]
 imageURL: "http://i.imgur.com/lM2K9PJ.jpg"
+mini_imageURL: "http://i.imgur.com/0IYZalW.jpg" 
 author: "Alba González"
 ---
 El pub La Continental, un local acogedor con un ambierte inmejorable, donde tendrás la oportunidad de pasar un rato agradable viendo un partido en la pantalla gigante, jugando al futbolín o disfrutanto todos los lunes por la noche del fantástico Alicante Comedy Club.
