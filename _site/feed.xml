@@ -5,8 +5,8 @@
     <description>UA Party nace con la intención de conectar a toda la comunidad de la Universidad de Alicante en el ámbito de salir de fiesta y ofrecerte toda la información de cada una de las fiestas que se organizan.</description>
     <link>http://uaparty.ml/</link>
     <atom:link href="http://uaparty.ml/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Oct 2016 19:19:44 +0200</pubDate>
-    <lastBuildDate>Wed, 19 Oct 2016 19:19:44 +0200</lastBuildDate>
+    <pubDate>Wed, 19 Oct 2016 20:04:21 +0200</pubDate>
+    <lastBuildDate>Wed, 19 Oct 2016 20:04:21 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -162,43 +162,6 @@ Y en taquilla por 12€&lt;/p&gt;
       </item>
     
       <item>
-        <title>Alicante Comedy Club</title>
-        <description>&lt;p&gt;Llega al Pub La Continental uno de los espectáculos más originales y exclusivos del panorama de la comedia. Se trata del Alicante Comedy Club y lo podrás disfrutar cada lunes, a las 22 horas. El Alicante Comedy Club, que nació en San Vicente, es una apuesta por la comedia y sus nuevos valores que realizan sus monólogos compartiendo escenario con otros cómicos ya consagrado.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;El presentador de este espectáculo es Marco Antonio quien define al Alicante Comedy Club como “un laboratorio de comedia donde los cómicos aficionados o profesionales prueban sus nuevos chistes”.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;El espectáculo también contempla la actuación de un grupo de teatro especializado en actuaciones de improvisación denominada ‘Improvivencia’, en la que el público puede elegir los personajes, la situación y el cierre de la escena, entre otros elementos.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;strong&gt;Fecha:&lt;/strong&gt; todos los lunes&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Horario:&lt;/strong&gt; de 22:00 a 1:30&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lugar:&lt;/strong&gt; Pub La Continental, avenida Primero de Mayo, 24, San Vicente del Raspeig.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Entradas:&lt;/strong&gt; reservar llamando o enviando un whatsapp al 605 806 739&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; 3€ consumición mínima&lt;/p&gt;
-</description>
-        <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://uaparty.ml/novedades/comedy/</link>
-        <guid isPermaLink="true">http://uaparty.ml/novedades/comedy/</guid>
-        
-        
-        <category>lunes</category>
-        
-        <category>monologos</category>
-        
-        <category>ComedyClub</category>
-        
-      </item>
-    
-      <item>
         <title>Batalla de Bandas - The One</title>
         <description>&lt;p&gt;¿Te imaginas ser el telonero de uno de tus grupos favoritos? Consíguelo, en The One organizamos la primera BATALLA DE BANDAS y los ganadores podrán cumplir su sueño siendo el telonero de uno de sus grupos referencia además de premios en metálico, un video de la actuación el día que telonees a uno de los grandes con la sala llena de gente escuchando tu música y para que aún te sientas más especial, tendrás tu propio camerino con el rider de hospitalidad que se les cede a las grandes bandas y un recuerdo que conservarás toda tu vida.&lt;/p&gt;
 
@@ -223,6 +186,43 @@ Se la estrella sobre el escenario de SALA THE ONE y disfruta del mejor sonido y 
         <category>universitaria</category>
         
         <category>The One</category>
+        
+      </item>
+    
+      <item>
+        <title>Alicante Comedy Club</title>
+        <description>&lt;p&gt;Llega al Pub La Continental uno de los espectáculos más originales y exclusivos del panorama de la comedia. Se trata del Alicante Comedy Club y lo podrás disfrutar cada lunes, a las 22 horas. El Alicante Comedy Club, que nació en San Vicente, es una apuesta por la comedia y sus nuevos valores que realizan sus monólogos compartiendo escenario con otros cómicos ya consagrado.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;El presentador de este espectáculo es Marco Antonio quien define al Alicante Comedy Club como “un laboratorio de comedia donde los cómicos aficionados o profesionales prueban sus nuevos chistes”.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;El espectáculo también contempla la actuación de un grupo de teatro especializado en actuaciones de improvisación denominada ‘Improvivencia’, en la que el público puede elegir los personajes, la situación y el cierre de la escena, entre otros elementos.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;Fecha:&lt;/strong&gt; todos los lunes&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Horario:&lt;/strong&gt; de 22:00 a 1:30&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lugar:&lt;/strong&gt; Pub La Continental, avenida Primero de Mayo, 24, San Vicente del Raspeig.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Entradas:&lt;/strong&gt; reservar llamando o enviando un whatsapp al 605 806 739&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; 3€ consumición mínima&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
+        <link>http://uaparty.ml/novedades/Comedy/</link>
+        <guid isPermaLink="true">http://uaparty.ml/novedades/Comedy/</guid>
+        
+        
+        <category>lunes</category>
+        
+        <category>monologos</category>
+        
+        <category>ComedyClub</category>
         
       </item>
     

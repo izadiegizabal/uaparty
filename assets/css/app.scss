@@ -267,12 +267,8 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 .cards-container {
   column-break-inside: avoid;
   .card {
-    z-index: 5;
     display: inline-block;
     overflow: visible;
-    .material-icons{
-      z-index: 5;
-    }
   }
 }
 
