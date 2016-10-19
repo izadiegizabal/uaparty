@@ -1,8 +1,9 @@
 ---
 layout: cocktail
 title:  "Margarita"
-categories: [Cocktails, simple, tequila]
+categories: [cóctel, simple, tequila]
 imageURL: "http://i.imgur.com/8Ih9ufP.png"
+mini_imageURL: "http://i.imgur.com/DtZYn7D.jpg"
 author: "Alejandro Jaen"
 ---
 
@@ -19,7 +20,7 @@ Mientras que la Margarita es uno de los cócteles más populares en América del
 
 **************************************************
 
-#### COMO HACER EL COCTEL MARGARITA
+#### CÓMO HACER EL COCTEL MARGARITA
 
 - Añadir los ingredientes a una coctelera y llenarla de hielo.
 

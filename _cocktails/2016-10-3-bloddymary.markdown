@@ -1,8 +1,9 @@
 ---
 layout: cocktail
 title:  "Bloody Mary"
-categories: [Cocktails, simple, vodka]
+categories: [cóctel, simple, vodka]
 imageURL: "http://i.imgur.com/xyNi6Ad.jpg"
+mini_imageURL: "http://i.imgur.com/Xiu0WpA.jpg"
 author: "Juan Anton Perez"
 ---
 
@@ -26,7 +27,7 @@ Aunque el origen de este cóctel popular brunch es discutible,el poder de perman
 
 **************************************************
 
-#### COMO HACER EL COCTEL BLOODY MARY
+#### CÓMO HACER EL COCTEL BLOODY MARY
 
 - Vierta un poco de sal de apio en un plato pequeño.
 - Frote la parte jugosa del limón o lima de cuña a lo largo del borde de un vaso de cerveza.

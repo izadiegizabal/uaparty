@@ -1,0 +1,31 @@
+---
+layout: cocktail
+title:  "Mai Tai"
+categories: [cóctel, simple, ron]
+imageURL: "http://i.imgur.com/PrN6m05.jpg"
+mini_imageURL: "http://i.imgur.com/Di10QVb.jpg"
+author: "Jose Martinez Lopez"
+---
+
+El Mai Tai nació en el restaurante Trader Vic de Oakland (California) en el año 1944, aunque, como sucede con muchos cocktails, son varios los que se apuntan su autoría. Uno de ellos, antiguo rival del creador de Trader Vic, es Don the Beachcomber, que también disponía de varios restaurantes con ambiente de la Polinesia en Estados Unidos. Sin embargo, su receta es y su sabor son diferentes a la del Mai Tai. De hecho, podemos encontrar hasta once recetas distintas del mismo combinado.
+
+**************************************************
+
+#### INGREDIENTES EN EL MAI TAI
+
+- 30 ml de `ron` tostado.
+- 15 ml de zumo de naranja.
+- 15 ml de sirope.
+- 5 ml de azúcar piedra.
+- 10 ml de zumo de lima.
+- 30 ml de `ron` blanco.
+
+**************************************************
+
+#### CÓMO HACER EL COCTEL MAI TAI
+
+- Se mezclan y agitan todos los ingredientes excepto el ron tostado en una coctelera con hielo.
+
+- Con la mezcla hecha, se añade el ron tostado por encima.
+
+- Se puede adornar con cáscara de lima.

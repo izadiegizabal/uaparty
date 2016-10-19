@@ -1,7 +1,11 @@
+<?php
+if(!ob_start("ob_gzhandler")) ob_start();
+?>
+
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 {% include head.html %}
-<body>
+<body class="scrollspy">
     <header>
         {% include header.html %}
     </header>
@@ -34,6 +38,7 @@
             setTimeout(autoplay, 4500);
           }
           $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
             $('.carousel').carousel();
             $('.materialboxed').materialbox();
           });
@@ -41,3 +46,10 @@
     </script>
 </body>
 </html>
+
+
+<?php
+
+ob_flush();
+
+?>

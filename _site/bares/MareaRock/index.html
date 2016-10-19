@@ -1,5 +1,9 @@
+<?php
+if(!ob_start("ob_gzhandler")) ob_start();
+?>
+
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +11,8 @@
     <title>UA Party - MareaRock</title>
     <meta name="description" content="Como sabréis, el Barrio es una zona de fiesta a la que es necesario ir bien vestido. No hablo de traje y corbata, pero si mantener un poco una imagen. Hay lu...">
     <link type="application/atom+xml" rel="alternate" href="http://uaparty.ml/feed.xml" title="UA Party" />
-    <link type="text/css" rel="stylesheet" href="/assets/css/Material-icons.css" media="screen,projection">
     <link type="text/css" rel="stylesheet" href="/assets/css/app.css" media="screen,projection">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" media="screen,projection">
     <link rel="canonical" href="http://uaparty.ml/bares/MareaRock/">
 
     <!-- FAVICONS -->
@@ -20,7 +24,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
+<body class="scrollspy">
     <header>
         <div class="navbar-fixed">
 <nav class="white blue-text z-depth-0">
@@ -31,13 +35,11 @@
         <li style="padding-left: 25px;"><a href="/calendario/" class="blue-text margena-kendu">Calendario</a></li>
         
             
-                <li style="padding-left: 25px;"><a href="/about/" class="blue-text margena-kendu">About</a></li>
-            
-        
-            
         
             
                 <li style="padding-left: 25px;"><a href="/bares/" class="blue-text margena-kendu">Bares</a></li>
+            
+        
             
         
             
@@ -50,6 +52,10 @@
         
             
                 <li style="padding-left: 25px;"><a href="/juegos/" class="blue-text margena-kendu">Juegos</a></li>
+            
+        
+            
+                <li style="padding-left: 25px;"><a href="/sobre_nosotros/" class="blue-text margena-kendu">Sobre Nosotros</a></li>
             
         
             
@@ -183,7 +189,7 @@
 </div>
 <div class="footer-copyright">
   <div class="container center-align">
-    NULLPOINTER - 2016
+    © NULLPOINTER - 2016
   </div>
 </div>
 
@@ -211,6 +217,7 @@
             setTimeout(autoplay, 4500);
           }
           $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
             $('.carousel').carousel();
             $('.materialboxed').materialbox();
           });
@@ -218,3 +225,10 @@
     </script>
 </body>
 </html>
+
+
+<?php
+
+ob_flush();
+
+?>

@@ -137,9 +137,70 @@ footer.page-footer {
   margin-bottom: 5px;
 }
 
+.marra-cal {
+  max-width: 75%;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.cal-margin {
+  margin: auto;
+  margin-bottom: 25px;
+}
+
 .mobileko-menua {
   width: 250px;
 }
+
+.space-above {
+  margin-top: 75px;
+}
+
+.paddig-sides {
+  padding: 0 2%;
+}
+
+.container-carousel {
+  margin: auto;
+  max-width: 1920px;
+}
+
+/* Form Colours */
+
+/* label color */
+  .input-field label {
+    color: #82b1ff;
+  }
+  /* label focus color */
+  .input-field input[type]:focus + label {
+    color: #448aff;
+  }
+  /* label underline focus color */
+  .input-field input[type]:focus {
+    border-bottom: 1px solid #448aff;
+    box-shadow: 0 1px 0 0 #448aff;
+  }
+
+  /* textarea focus color */
+  .input-field textarea[name]:focus + label {
+    color: #448aff;
+  }
+  /* textarea underline focus color */
+  .input-field textarea[name]:focus {
+    border-bottom: 1px solid #448aff;
+    box-shadow: 0 1px 0 0 #448aff;
+  }
+
+  /* icon prefix color*/
+  .input-field .prefix {
+    color: #82b1ff;
+  }
+
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #448aff;
+  }
+
 
 /* Responsive iFrame for the calendar */
 .responsive-iframe-container {
@@ -159,6 +220,25 @@ footer.page-footer {
     height: 100%;
 }
 
+#car-one {
+  background: url(../img/novedades.jpg) no-repeat center;
+  display: block;
+}
+
+#car-two {
+  background: url(../img/bares.jpg) no-repeat center;
+  display: block;
+}
+
+#car-three {
+  background: url(../img/cocteles.jpg) no-repeat center;
+  display: block;
+}
+
+#car-four {
+  background: url(../img/juegos.jpg) no-repeat center;
+  display: block;
+}
 //////////////////////////////////////////
 // Responsive design ////////////////////
 /////////////////////////////////////////
@@ -187,12 +267,8 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 .cards-container {
   column-break-inside: avoid;
   .card {
-    z-index: 5;
     display: inline-block;
     overflow: visible;
-    .material-icons{
-      z-index: 5;
-    }
   }
 }
 
