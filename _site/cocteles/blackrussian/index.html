@@ -1,5 +1,9 @@
+<?php
+if(!ob_start("ob_gzhandler")) ob_start();
+?>
+
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +11,8 @@
     <title>UA Party - Black Russian</title>
     <meta name="description" content="El Black russian es un trago sencillo pero fuerte, con una textura excepcional. También esta su hermano gemelo el White russian, que perfectamente podría est...">
     <link type="application/atom+xml" rel="alternate" href="http://uaparty.ml/feed.xml" title="UA Party" />
-    <link type="text/css" rel="stylesheet" href="/assets/css/Material-icons.css" media="screen,projection">
     <link type="text/css" rel="stylesheet" href="/assets/css/app.css" media="screen,projection">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" media="screen,projection">
     <link rel="canonical" href="http://uaparty.ml/cocteles/blackrussian/">
 
     <!-- FAVICONS -->
@@ -226,3 +230,10 @@
     </script>
 </body>
 </html>
+
+
+<?php
+
+ob_flush();
+
+?>
