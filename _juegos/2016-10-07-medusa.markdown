@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Medusa"
 category: [beber, juego, alcohol, chupitos]
 imageURL: "http://i.imgur.com/4zwIlUG.jpg"
+mini_imageURL: "http://i.imgur.com/UnceF9a.jpg"
 author: "Alejandro Herrero Más "
 ---
 
