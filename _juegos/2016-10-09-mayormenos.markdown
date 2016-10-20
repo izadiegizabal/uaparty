@@ -3,7 +3,7 @@ layout: cocktail
 title:  "Mayor Menor"
 category: [beber, juego, alcohol, chupitos, cartas, suerte ]
 imageURL: "http://i.imgur.com/YAMlIrv.jpg"
-mini_imageURL:"http://i.imgur.com/ZqrML2F.jpg"
+mini_imageURL: "http://i.imgur.com/ZqrML2F.jpg"
 author: "Raquel Miraller Diaz"
 ---
 
