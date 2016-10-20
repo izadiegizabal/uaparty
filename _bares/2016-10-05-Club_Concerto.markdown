@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Club Concerto"
 category: [Alicante, discoteca, fiesta, fin de semana]
 imageURL: "http://i.imgur.com/oyKzOdBg.png"
+mini_imageURL: "http://i.imgur.com/lOusore.jpg" 
 author: "Alba González"
 ---
 
