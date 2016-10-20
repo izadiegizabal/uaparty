@@ -3,9 +3,9 @@ layout: cocktail
 title:  "Quinta Avenida"
 category: [Alicante, Fin de semana, discoteca]
 imageURL: "http://i.imgur.com/ncbMi30.png"
+mini_imageURL: "http://i.imgur.com/5KxCT92.jpg"
 author: "Clara Navarro"
 ---
-
 Te apetece sumergirte por unos momentos en Nueva York.
 Y Disfrutar de un ambiente Universitario e Internacional en una discoteca ubicada en el centro de Alicante. Dispone de la mejor música y el mejor ambiente que podrás encontrar.
 
@@ -25,4 +25,4 @@ Venta de entradas anticipadas y entrada gratuita con Flyer
 
 **Dirección:** calle Gerona 18, 03800 Alicante
 
-**Más información:** [http://www.5avenida.org](http://www.5avenida.org)
+**Más información:** [www.5avenida.org](http://www.5avenida.org)

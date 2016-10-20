@@ -3,7 +3,11 @@ layout: cocktail
 title:  "Beerpong"
 category: [beber, juego, alcohol, pelota, cerveza,la antigua]
 imageURL: "http://i.imgur.com/rycK3bO.jpg"
+<<<<<<< HEAD
 mini_imageURL: "http://i.imgur.com/W26Lz7V.jpg"
+=======
+mini_imageURL:"http://i.imgur.com/W26Lz7V.jpg"
+>>>>>>> master
 author: "Juan Gutierrez Pomte"
 ---
 

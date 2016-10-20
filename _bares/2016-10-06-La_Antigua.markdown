@@ -3,6 +3,7 @@ layout: cocktail
 title:  "La Antigua UA"
 category: [San Vicente, miercoles, bar, beer pong]
 imageURL: "http://i.imgur.com/kXc2ISS.jpg"
+mini_imageURL: "http://i.imgur.com/N1LpZvu.jpg" 
 author: "Carla Barrios"
 ---
 

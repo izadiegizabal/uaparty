@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Pub Ikebana"
 category: [San Vicente, jueves, fin de semana, bar]
 imageURL: "http://i.imgur.com/4xOWC1x.jpg"
+mini_imageURL: "http://i.imgur.com/QAqBQ10.jpg" 
 author: "Juan Martínez"
 ---
 

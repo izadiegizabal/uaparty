@@ -160,12 +160,20 @@ footer.page-footer {
   padding: 0 2%;
 }
 
+.container-carousel {
+  margin: auto;
+  max-width: 1920px;
+}
 
+<<<<<<< HEAD
 .fa {
   margin-right: 5px;
 }
 
 /*Bidaltzekoan kolorek*/
+=======
+/* Form Colours */
+>>>>>>> master
 
 /* label color */
   .input-field label {
@@ -221,22 +229,22 @@ footer.page-footer {
 }
 
 #car-one {
-  background: url(http://i.imgur.com/CoMS3RL.jpg) no-repeat center;
+  background: url(../img/novedades.jpg) no-repeat center;
   display: block;
 }
 
 #car-two {
-  background: url(http://i.imgur.com/48GIIAM.jpg) no-repeat center;
+  background: url(../img/bares.jpg) no-repeat center;
   display: block;
 }
 
 #car-three {
-  background: url(http://i.imgur.com/XWRrLOB.jpg) no-repeat center;
+  background: url(../img/cocteles.jpg) no-repeat center;
   display: block;
 }
 
 #car-four {
-  background: url(http://i.imgur.com/CcsFrAB.jpg) no-repeat center;
+  background: url(../img/juegos.jpg) no-repeat center;
   display: block;
 }
 //////////////////////////////////////////
@@ -267,12 +275,8 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 .cards-container {
   column-break-inside: avoid;
   .card {
-    z-index: 5;
     display: inline-block;
     overflow: visible;
-    .material-icons{
-      z-index: 5;
-    }
   }
 }
 
