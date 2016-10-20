@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Verdadero o falso"
 category: [beber, juego, alcohol, chupitos, verdad, falso, mentir]
 imageURL: "http://i.imgur.com/qVbDVu4.jpg"
+mini_imageURL: "http://i.imgur.com/D1Joez5.jpg"
 author: "María Vazquez Gisbert"
 ---
 
