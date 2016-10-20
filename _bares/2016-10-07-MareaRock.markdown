@@ -1,4 +1,4 @@
-﻿---
+---
 layout: cocktail
 title:  "MareaRock"
 category: [Alicante, fin de semana, bar, música]
