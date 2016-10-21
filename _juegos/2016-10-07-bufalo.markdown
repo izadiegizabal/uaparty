@@ -3,7 +3,11 @@ layout: cocktail
 title:  "Búfalo"
 category: [beber, juego, alcohol, cerveza]
 imageURL: "http://i.imgur.com/BJkBYaH.jpg"
+<<<<<<< HEAD
 mini_imageURL: "http://i.imgur.com/ZMM4xdd.jpgs"s
+=======
+mini_imageURL: "http://i.imgur.com/ZMM4xdd.jpgs"
+>>>>>>> master
 author: "Raquel Pineda Gutierrez "
 ---
 

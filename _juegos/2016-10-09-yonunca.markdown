@@ -3,7 +3,11 @@ layout: cocktail
 title:  "Yo nunca"
 category: [beber, juego, alcohol, chupitos, verdad]
 imageURL: "http://i.imgur.com/r9Qno4c.jpg"
+<<<<<<< HEAD
 mini_imageURL:"http://i.imgur.com/ryBNQIg.jpg"
+=======
+mini_imageURL: "http://i.imgur.com/ryBNQIg.jpg"
+>>>>>>> master
 author: "Laura Terol Garcia"
 ---
 

@@ -3,7 +3,11 @@ layout: cocktail
 title:  "Pirámide"
 category: [beber, juego, alcohol, chupitos, cartas, venganza, cassalla]
 imageURL: "http://i.imgur.com/ZnXX030.jpg"
+<<<<<<< HEAD
 mini_imageURL:"http://i.imgur.com/DPNxeDp.jpg"
+=======
+mini_imageURL: "http://i.imgur.com/DPNxeDp.jpg"
+>>>>>>> master
 author: "Javi Cabanes Garcia"
 ---
 

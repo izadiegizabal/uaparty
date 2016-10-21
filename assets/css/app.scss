@@ -164,6 +164,7 @@ footer.page-footer {
   margin: auto;
   max-width: 1920px;
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 .fa {
@@ -172,6 +173,10 @@ footer.page-footer {
 
 /*Bidaltzekoan kolorek*/
 =======
+/* Form Colours */
+>>>>>>> master
+=======
+
 /* Form Colours */
 >>>>>>> master
 
@@ -247,33 +252,62 @@ footer.page-footer {
   background: url(../img/juegos.jpg) no-repeat center;
   display: block;
 }
+
+//////////////////////////////////////////
+// Google Icons /////////////////////////
+/////////////////////////////////////////
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url({{ site.url }}/assets/fonts/materialicons/MaterialIcons-Regular.woff2) format('woff2'),
+       url({{ site.url }}/assets/fonts/materialicons/MaterialIcons-Regular.woff) format('woff'),
+       url({{ site.url }}/assets/fonts/materialicons/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
 //////////////////////////////////////////
 // Responsive design ////////////////////
 /////////////////////////////////////////
 
-// Media Query Ranges
-$small-screen-up: 601px !default;
-$medium-screen-up: 993px !default;
-$large-screen-up: 1201px !default;
-$small-screen: 600px !default;
-$medium-screen: 992px !default;
-$large-screen: 1200px !default;
 
-$medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
-$large-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
-$small-and-down: "only screen and (max-width : #{$small-screen})" !default;
-$medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
-$medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;
-
-
-@mixin column-count($ct) {
+/*@mixin column-count($ct) {
   -webkit-column-count: $ct;
   -moz-column-count: $ct;
   column-count: $ct;
-}
+}*/
 
 .cards-container {
   column-break-inside: avoid;
+  margin: auto;
   .card {
     display: inline-block;
     overflow: visible;
@@ -285,12 +319,15 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
     width: 75%;
   }
   .cards-container {
-    @include column-count(1);
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
     .card {
-      z-index: 5;
+      width: 100%;
     }
   }
 }
+
 @media #{$medium-and-up} {
   .container {
     width: 75%;
@@ -300,12 +337,12 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
     margin: auto;
   }
   .cards-container {
-    @include column-count(2);
-    .card {
-      z-index: 5;
-    }
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
   }
 }
+
 @media #{$large-and-up} {
   .container {
     width: 60%;
@@ -315,15 +352,8 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
     margin: auto;
   }
   .cards-container {
-    @include column-count(3);
-    .card {
-      z-index: 5;
-    }
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
   }
-}
-
-
-/// Styles for demo
-.text-center {
-  text-align: center;
 }
