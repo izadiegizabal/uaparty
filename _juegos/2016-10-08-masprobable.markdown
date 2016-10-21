@@ -3,11 +3,7 @@ layout: cocktail
 title:  "El más probable"
 category: [beber, juego, alcohol, chupitos, relax]
 imageURL: "http://i.imgur.com/uNLpEpx.jpg"
-<<<<<<< HEAD
-mini_imageURL:"http://i.imgur.com/YIL6GQR.jpg"
-=======
 mini_imageURL: "http://i.imgur.com/YIL6GQR.jpg"
->>>>>>> master
 author: "Marta Esparza Martí "
 ---
 

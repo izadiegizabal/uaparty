@@ -3,19 +3,11 @@
   <channel>
     <title>UA Party</title>
     <description>UA Party nace con la intención de conectar a toda la comunidad de la Universidad de Alicante en el ámbito de salir de fiesta y ofrecerte toda la información de cada una de las fiestas que se organizan.</description>
-<<<<<<< HEAD
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Oct 2016 17:54:38 +0200</pubDate>
-    <lastBuildDate>Thu, 20 Oct 2016 17:54:38 +0200</lastBuildDate>
+    <pubDate>Fri, 21 Oct 2016 18:21:46 +0200</pubDate>
+    <lastBuildDate>Fri, 21 Oct 2016 18:21:46 +0200</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
-=======
-    <link>http://uaparty.ml/</link>
-    <atom:link href="http://uaparty.ml/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Oct 2016 21:58:25 +0200</pubDate>
-    <lastBuildDate>Thu, 20 Oct 2016 21:58:25 +0200</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
->>>>>>> master
     
       <item>
         <title>Tallarina Halloween - The One</title>
@@ -187,17 +179,10 @@ Se la estrella sobre el escenario de SALA THE ONE y disfruta del mejor sonido y 
 &lt;p&gt;&lt;strong&gt;Lugar:&lt;/strong&gt; Sala The One. Calle bronce, 8, 03690 San Vicente del Raspeig&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-<<<<<<< HEAD
         <link>http://localhost:4000/novedades/batalla_de_bandas/</link>
         <guid isPermaLink="true">http://localhost:4000/novedades/batalla_de_bandas/</guid>
         
         
-=======
-        <link>http://uaparty.ml/novedades/batalla_de_bandas/</link>
-        <guid isPermaLink="true">http://uaparty.ml/novedades/batalla_de_bandas/</guid>
-        
-        
->>>>>>> master
         <category>universitaria</category>
         
         <category>The One</category>
@@ -229,13 +214,8 @@ Se la estrella sobre el escenario de SALA THE ONE y disfruta del mejor sonido y 
 &lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; 3€ consumición mínima&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-<<<<<<< HEAD
         <link>http://localhost:4000/novedades/Comedy/</link>
         <guid isPermaLink="true">http://localhost:4000/novedades/Comedy/</guid>
-=======
-        <link>http://uaparty.ml/novedades/Comedy/</link>
-        <guid isPermaLink="true">http://uaparty.ml/novedades/Comedy/</guid>
->>>>>>> master
         
         
         <category>lunes</category>
