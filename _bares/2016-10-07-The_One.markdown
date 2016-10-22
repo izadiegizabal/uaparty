@@ -3,6 +3,7 @@ layout: cocktail
 title:  "The One"
 category: [San Vicente, jueves, discoteca, conciertos]
 imageURL: "http://i.imgur.com/2h3wLTo.png"
+mini_imageURL: "http://i.imgur.com/oLWuk19.jpg" 
 author: "María López"
 ---
 
@@ -21,11 +22,11 @@ La sala también ofrece la posibilidad de reservarla para celebrar cumpleaños, 
 
 Más información de la sala:
 
-- La capacidad de la sala es de 1100 personas.
+• La capacidad de la sala es de 1100 personas.
 
-- Guardarropa
+• Guardarropa
 
-- Palco Zona ViP con capacidad para 30 o 40 personas.
+• Palco Zona ViP con capacidad para 30 o 40 personas.
 
 ********************************************************
 

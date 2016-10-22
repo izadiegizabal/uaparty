@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Voy al bar"
 category: [beber, juego, alcohol, chupitos, memoria, encadenados]
 imageURL: "http://i.imgur.com/D5HUFZe.jpg"
+mini_imageURL:"http://i.imgur.com/mXu78hJ.jpg"
 author: "Javi Cabanes Garcia"
 ---
 

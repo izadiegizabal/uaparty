@@ -3,6 +3,7 @@ layout: cocktail
 title:  "Carpe Diem"
 category: [Alicante, fin de semana, bar]
 imageURL: "http://i.imgur.com/Vo3Hyb0.png"
+mini_imageURL: "http://i.imgur.com/xNhOOwX.jpg"
 author: "Lucas García"
 ---
 
