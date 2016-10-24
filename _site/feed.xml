@@ -3,11 +3,50 @@
   <channel>
     <title>UA Party</title>
     <description>UA Party nace con la intención de conectar a toda la comunidad de la Universidad de Alicante en el ámbito de salir de fiesta y ofrecerte toda la información de cada una de las fiestas que se organizan.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Oct 2016 21:13:28 +0200</pubDate>
-    <lastBuildDate>Sun, 23 Oct 2016 21:13:28 +0200</lastBuildDate>
-    <generator>Jekyll v3.3.0</generator>
+    <link>http://uaparty.ml/</link>
+    <atom:link href="http://uaparty.ml/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 24 Oct 2016 10:24:49 +0200</pubDate>
+    <lastBuildDate>Mon, 24 Oct 2016 10:24:49 +0200</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Katamaran- Chelina Manuhutu</title>
+        <description>&lt;p&gt;Katamaran, presenta su propuesta para la tarde/noche de los domingos. Es una producción construida alrededor del #GuestArtist con la suma de los artistas mas relevantes en la escena electrónica del levante, sin estridencias y con la sobriedad como valor en potencia... pero por supuesto sin dejar de lado la diversión.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Chelina Manuhutu es la elegida para amadrinar este nuevo proyecto que arranca en la tarde del próximo 23 de octubre a las 18hrs
+ Andres Arias, Carlos Agraz, Miguel Np, Basstianz, Rafa Angel también estarán aquí.
+Sabes que vas a venir... APROVECHATE!
+200 primeras entradas promocionadas 5€ (con copa)
+(+0,74€ gastos de gestión)
+Aquí:&lt;a href=&quot;https://xceed.me/es/events/alicante/24724/chelina-manuhutu-andres-arias-carlos-agraz-miguel-np-basstianz-rafa-angel&quot;&gt;www.xceed.me&lt;/a&gt;
+Puedes comprar tu entrada anticipada también en Katamaran o poniéndote en contacto con cualquiera de nuestros RRPP´s :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fecha:&lt;/strong&gt; Domingo, 23 de octubre&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Horario:&lt;/strong&gt; apartir de las 18:00&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lugar:&lt;/strong&gt; Muelle 6, zona Levante s/n mód. 15 ( planta alta). Alicante&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Entradas:&lt;/strong&gt; &lt;a href=&quot;https://xceed.me/es/events/alicante/24724/chelina-manuhutu-andres-arias-carlos-agraz-miguel-np-basstianz-rafa-angel&quot;&gt;www.xceed.me&lt;/a&gt;, en Katamarán y hablando con los RRPP&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; las 200 primeras entradas las podrás conseguir desde 5€&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Oct 2016 00:00:00 +0200</pubDate>
+        <link>http://uaparty.ml/novedades/Katamaran-fiesta/</link>
+        <guid isPermaLink="true">http://uaparty.ml/novedades/Katamaran-fiesta/</guid>
+        
+        
+        <category>universitaria</category>
+        
+        <category>puerto</category>
+        
+        <category>electrónica</category>
+        
+        <category>domingo</category>
+        
+      </item>
     
       <item>
         <title>Tallarina Halloween - The One</title>
@@ -30,8 +69,8 @@
 &lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; podrás conseguir tus entradas anticipadas desde 8€&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/novedades/tallarina-theone/</link>
-        <guid isPermaLink="true">http://localhost:4000/novedades/tallarina-theone/</guid>
+        <link>http://uaparty.ml/novedades/tallarina-theone/</link>
+        <guid isPermaLink="true">http://uaparty.ml/novedades/tallarina-theone/</guid>
         
         
         <category>universitaria</category>
@@ -78,8 +117,8 @@
 Y en taquilla por 12€&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/novedades/remember_theone/</link>
-        <guid isPermaLink="true">http://localhost:4000/novedades/remember_theone/</guid>
+        <link>http://uaparty.ml/novedades/remember_theone/</link>
+        <guid isPermaLink="true">http://uaparty.ml/novedades/remember_theone/</guid>
         
         
         <category>universitaria</category>
@@ -107,8 +146,8 @@ Y en taquilla por 12€&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Lugar:&lt;/strong&gt; Pub Ikebana, San Vicente del Raspeig&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/novedades/fiesta_reloj_ikebana/</link>
-        <guid isPermaLink="true">http://localhost:4000/novedades/fiesta_reloj_ikebana/</guid>
+        <link>http://uaparty.ml/novedades/fiesta_reloj_ikebana/</link>
+        <guid isPermaLink="true">http://uaparty.ml/novedades/fiesta_reloj_ikebana/</guid>
         
         
         <category>universitaria</category>
@@ -145,8 +184,8 @@ Y en taquilla por 12€&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Lugar:&lt;/strong&gt; Carpe Diem, Alicante&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/novedades/fiesta_alemana_carpe_diem/</link>
-        <guid isPermaLink="true">http://localhost:4000/novedades/fiesta_alemana_carpe_diem/</guid>
+        <link>http://uaparty.ml/novedades/fiesta_alemana_carpe_diem/</link>
+        <guid isPermaLink="true">http://uaparty.ml/novedades/fiesta_alemana_carpe_diem/</guid>
         
         
         <category>universitaria</category>
@@ -179,8 +218,8 @@ Se la estrella sobre el escenario de SALA THE ONE y disfruta del mejor sonido y 
 &lt;p&gt;&lt;strong&gt;Lugar:&lt;/strong&gt; Sala The One. Calle bronce, 8, 03690 San Vicente del Raspeig&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/novedades/batalla_de_bandas/</link>
-        <guid isPermaLink="true">http://localhost:4000/novedades/batalla_de_bandas/</guid>
+        <link>http://uaparty.ml/novedades/batalla_de_bandas/</link>
+        <guid isPermaLink="true">http://uaparty.ml/novedades/batalla_de_bandas/</guid>
         
         
         <category>universitaria</category>
@@ -214,8 +253,8 @@ Se la estrella sobre el escenario de SALA THE ONE y disfruta del mejor sonido y 
 &lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; 3€ consumición mínima&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/novedades/Comedy/</link>
-        <guid isPermaLink="true">http://localhost:4000/novedades/Comedy/</guid>
+        <link>http://uaparty.ml/novedades/Comedy/</link>
+        <guid isPermaLink="true">http://uaparty.ml/novedades/Comedy/</guid>
         
         
         <category>lunes</category>
