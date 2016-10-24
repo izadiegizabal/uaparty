@@ -3,10 +3,10 @@
   <channel>
     <title>UA Party</title>
     <description>UA Party nace con la intención de conectar a toda la comunidad de la Universidad de Alicante en el ámbito de salir de fiesta y ofrecerte toda la información de cada una de las fiestas que se organizan.</description>
-    <link>http://uaparty.ml/</link>
-    <atom:link href="http://uaparty.ml/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Oct 2016 10:24:49 +0200</pubDate>
-    <lastBuildDate>Mon, 24 Oct 2016 10:24:49 +0200</lastBuildDate>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 24 Oct 2016 10:47:35 +0200</pubDate>
+    <lastBuildDate>Mon, 24 Oct 2016 10:47:35 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -34,8 +34,8 @@ Puedes comprar tu entrada anticipada también en Katamaran o poniéndote en cont
 &lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; las 200 primeras entradas las podrás conseguir desde 5€&lt;/p&gt;
 </description>
         <pubDate>Tue, 18 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://uaparty.ml/novedades/Katamaran-fiesta/</link>
-        <guid isPermaLink="true">http://uaparty.ml/novedades/Katamaran-fiesta/</guid>
+        <link>http://localhost:4000//novedades/Katamaran-fiesta/</link>
+        <guid isPermaLink="true">http://localhost:4000//novedades/Katamaran-fiesta/</guid>
         
         
         <category>universitaria</category>
@@ -69,8 +69,8 @@ Puedes comprar tu entrada anticipada también en Katamaran o poniéndote en cont
 &lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; podrás conseguir tus entradas anticipadas desde 8€&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://uaparty.ml/novedades/tallarina-theone/</link>
-        <guid isPermaLink="true">http://uaparty.ml/novedades/tallarina-theone/</guid>
+        <link>http://localhost:4000//novedades/tallarina-theone/</link>
+        <guid isPermaLink="true">http://localhost:4000//novedades/tallarina-theone/</guid>
         
         
         <category>universitaria</category>
@@ -117,8 +117,8 @@ Puedes comprar tu entrada anticipada también en Katamaran o poniéndote en cont
 Y en taquilla por 12€&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://uaparty.ml/novedades/remember_theone/</link>
-        <guid isPermaLink="true">http://uaparty.ml/novedades/remember_theone/</guid>
+        <link>http://localhost:4000//novedades/remember_theone/</link>
+        <guid isPermaLink="true">http://localhost:4000//novedades/remember_theone/</guid>
         
         
         <category>universitaria</category>
@@ -146,8 +146,8 @@ Y en taquilla por 12€&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Lugar:&lt;/strong&gt; Pub Ikebana, San Vicente del Raspeig&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://uaparty.ml/novedades/fiesta_reloj_ikebana/</link>
-        <guid isPermaLink="true">http://uaparty.ml/novedades/fiesta_reloj_ikebana/</guid>
+        <link>http://localhost:4000//novedades/fiesta_reloj_ikebana/</link>
+        <guid isPermaLink="true">http://localhost:4000//novedades/fiesta_reloj_ikebana/</guid>
         
         
         <category>universitaria</category>
@@ -184,8 +184,8 @@ Y en taquilla por 12€&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Lugar:&lt;/strong&gt; Carpe Diem, Alicante&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://uaparty.ml/novedades/fiesta_alemana_carpe_diem/</link>
-        <guid isPermaLink="true">http://uaparty.ml/novedades/fiesta_alemana_carpe_diem/</guid>
+        <link>http://localhost:4000//novedades/fiesta_alemana_carpe_diem/</link>
+        <guid isPermaLink="true">http://localhost:4000//novedades/fiesta_alemana_carpe_diem/</guid>
         
         
         <category>universitaria</category>
@@ -218,8 +218,8 @@ Se la estrella sobre el escenario de SALA THE ONE y disfruta del mejor sonido y 
 &lt;p&gt;&lt;strong&gt;Lugar:&lt;/strong&gt; Sala The One. Calle bronce, 8, 03690 San Vicente del Raspeig&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://uaparty.ml/novedades/batalla_de_bandas/</link>
-        <guid isPermaLink="true">http://uaparty.ml/novedades/batalla_de_bandas/</guid>
+        <link>http://localhost:4000//novedades/batalla_de_bandas/</link>
+        <guid isPermaLink="true">http://localhost:4000//novedades/batalla_de_bandas/</guid>
         
         
         <category>universitaria</category>
@@ -253,8 +253,8 @@ Se la estrella sobre el escenario de SALA THE ONE y disfruta del mejor sonido y 
 &lt;p&gt;&lt;strong&gt;Precio:&lt;/strong&gt; 3€ consumición mínima&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://uaparty.ml/novedades/Comedy/</link>
-        <guid isPermaLink="true">http://uaparty.ml/novedades/Comedy/</guid>
+        <link>http://localhost:4000//novedades/Comedy/</link>
+        <guid isPermaLink="true">http://localhost:4000//novedades/Comedy/</guid>
         
         
         <category>lunes</category>
