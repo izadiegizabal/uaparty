@@ -8,14 +8,15 @@ if(!ob_start("ob_gzhandler")) ob_start();
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <title>UA Party - Sobre Nosotros</title>
+    <title>UA Party</title>
     <meta name="description" content=" Con UA Party tus fiestas serán como nunca antes! ">
     <meta property="og:title" content="UA Party" />
     <meta property="og:description" content="Con UA Party tus fiestas serán como nunca antes!" />
-    <meta property="og:image" content="http://uaparty.ml/assets/img/og.jpg" />
-    <link type="application/atom+xml" rel="alternate" href="http://uaparty.ml/feed.xml" title="UA Party" />
+    <meta property="og:image" content="http://localhost:4000/assets/img/og.jpg" />
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="UA Party" />
     <link type="text/css" rel="stylesheet" href="/assets/css/app.css" media="screen,projection">
-    <link rel="canonical" href="http://uaparty.ml/sobre_nosotros/">
+    <link rel="canonical" href="http://localhost:4000/sobre_nosotros/">
+    <link type="text/css" rel="stylesheet" href="/assets/css/font-awesome.min.css" media="screen,projection">
 
     <!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -56,8 +57,6 @@ if(!ob_start("ob_gzhandler")) ob_start();
                 <li style="padding-left: 25px;"><a href="/juegos/" class="blue-text margena-kendu">Juegos</a></li>
             
         
-            
-                <li style="padding-left: 25px;"><a href="/sobre_nosotros/" class="blue-text margena-kendu">Sobre Nosotros</a></li>
             
         
             
@@ -103,26 +102,125 @@ if(!ob_start("ob_gzhandler")) ob_start();
     </header>
     <main>
         <div class="container">
-    <div class="section">
-        <div class="row">
+    <div class="group-article">
+        <div class="row no-margin">
             <div class="col s12">
-                <div class="card white z-depth-0">
-                    <div class="card-content">
-                        <div class="card-title center-align"><h2 class="thin blue-text">Sobre Nosotros</h2></div>
-                        <div class="divider"></div>
-                        <br/>
-                        <article class="grey-text text-darken-2 post-content">
-                        <p>Hello World!
-Welcome to jekyll-materialize</p>
+                <h2 class="blue-text center-align thin">Sobre Nosotros</h2>
+                <div class="divider marra-cal"></div>
+            </div>
+        </div>
 
-                        </article>
+        <article class="text text-darken-2 post-content center"> ¡ Las mejores fiestas, las hacéis vosotros !</article>
+     
+        
+        <h4 class="blue-text thin">Nuestro equipo:</h4>
+         <article class="grey-text text-darken-2 post-content "> Nos encargamos de que te enteres de todas las novedades cerca de tí</article>
+        
+        
+      
+<!--Team-->
+       <div class="row">
+            <div class="col s12 m6 l3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <a href="https://twitter.com/izadiegizabal"><img class="responsive-img activator" src="../assets/img/izadi.jpg"></a>
+                    </div>
+                    <div class="card-content center">
+                       
+                             <h5 class="black-text thin">Izadi Egizabal Alkorta</h5>
+
+                             <h6 class="blue-text">Diseñador y Programador</h6>
+                           
+                            <a class="blue-text text-lighten-2" href="https://twitter.com/izadiegizabal">
+                             <i class="fa fa-twitter-square fa-2x"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/egizabalizadi">
+                                <i class="fa fa-facebook-square fa-2x"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://www.instagram.com/izadiegizabal">
+                                <i class="fa fa-instagram fa-2x"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <a href="https://twitter.com/sale_elalba"><img class="responsive-img activator" src="../assets/img/alba.jpg"></a>
+                    </div>
+                    <div class="card-content center">
+                        <h5 class="black-text thin">Alba González Aller</h5>
+
+                             <h6 class="blue-text">Diseñadora y Redactora</h6>
+                           
+                            <a class="blue-text text-lighten-2" href="https://twitter.com/sale_elalba">
+                                <i class="fa fa-twitter-square fa-2x"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/alba.gonzalezaller">
+                                <i class="fa fa-facebook-square fa-2x"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://www.instagram.com/alba.g.aller/">
+                                <i class="fa fa-instagram fa-2x"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <a href="https://www.instagram.com/claudiacambra/"><img class="responsive-img activator" src="../assets/img/claudia.jpg"></a>
+                    </div>
+                    <div class="card-content center">
+                             <h5 class="black-text thin">Claudia Cambra Mompó</h5>
+
+                             <h6 class="blue-text">Diseñadora y Redactora</h6>
+                           
+                            <a class="blue-text text-lighten-2" href="https://twitter.com/claudiacambra">
+                                <i class="fa fa-twitter-square fa-2x"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/claudia.cambramompo/">
+                                <i class="fa fa-facebook-square fa-2x"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2 " href="https://www.instagram.com/claudiacambra/">
+                                <i class="fa fa-instagram fa-2x"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l3">
+                <div class="card card-avatar">
+                    <div class="waves-effect waves-block waves-light">
+                        <a href="https://www.facebook.com/antonio.perezmas.3"><img class="responsive-img activator" src="../assets/img/antonio.jpg"></a>
+                    </div>
+                    <div class="card-content center">
+                       
+                             <h5 class="black-text thin"> Antonio Pérez Mas </h5>
+                             <br>
+
+                             <h6 class="blue-text">Comunity Manager y Redactor</h6>
+                           
+                            <a class="blue-text text-lighten-2" href="https://twitter.com/antonio1elx">
+                                <i class="fa fa-twitter-square fa-2x"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://www.facebook.com/antonio.perezmas.3">
+                                <i class="fa fa-facebook-square fa-2x"></i>
+                            </a>
+                            <a class="blue-text text-lighten-2" href="https://www.instagram.com/antonio1elx/">
+                                <i class="fa fa-instagram fa-2x"></i>
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+      </div>
     </div>
-</div>
-
     </main>
     <footer class="page-footer no-margin __top blue">
         <div class="container container-large">

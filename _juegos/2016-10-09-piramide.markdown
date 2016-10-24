@@ -27,7 +27,7 @@ El juego no tiene un origen concreto, es más bien un origen popular.
 
 #### DESCRIPCIÓN
 
-Este juego trata de "regalar" chupitos a los compañeros. Cada jugador tiene un número de la baraja, por lo que le corresponden 4 cartas a cada jugador. Se barajan las cartas que se utilizan(4 por el número de jugadores que haya y se colocan en forma de pirámide. Se van a ir destapando de una en una cada carta empezando por la base y siguiendo hacia la cúspide de la pirámide. Cuando una carta se destapa, el jugador al que le corresponde el número ha de regalar tantos chupitos a los jugadres que desee segun la siguiente esala:
+Este juego trata de "regalar" chupitos a los compañeros. Cada jugador tiene un número de la baraja, por lo que le corresponden 4 cartas a cada jugador. Se barajan las cartas que se utilizan(4 por el número de jugadores que haya y se colocan en forma de pirámide. Se van a ir destapando de una en una cada carta empezando por la base y siguiendo hacia la cúspide de la pirámide. Cuando una carta se destapa, el jugador al que le corresponde el número ha de regalar tantos chupitos a los jugadres que desee segun la siguiente imagen:
 
 *******************************************************************
 
